@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="main-login">
+       <div class="card-login">
+        <h1>LOGIN</h1>
+        <div class="textfield">
+            <label for="usuario">Usuário</label>
+            <input type="email" name="usuario" id="usuario" placeholder="Usuário">
+            <div class="erro" id="erro-usuario"></div>
+        </div>
+        <div class="textfield">
+            <label for="Senha">Senha</label>
+            <input type="password" name="Senha" id="senha" placeholder="Senha" minlength="8">
+            <div class="erro" id="erro-senha"></div>
+        </div>
+        <button class="btin-login" id="btin-login">Login</button>
+        <div class="signup-link">
+           
+            <p>Não tem uma conta?<a href="criar_conta.html" target="_blank"> Criar Conta</a></p>
+        </div>
+        <div class="google-login">
+            <button class="google-btin-login">Login com o Google</button>
+        </div>
+    </div>
+
+    </div>
+
+    <!--Cógido abaixo corresponde ao botão de login com o google, após a hospedadem adicionar o id do sistema no content-->
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="SEU_CLIENT_ID_DO_GOOGLE">
+
+
+
+<script>
+    const btinLogin = document.getElementById('btin-login');
+    const usuarioInput = document.getElementById('usuario');
+    const senhaInput = document.getElementById('senha');
+    const erroUsuario = document.getElementById('erro-usuario');
+    const erroSenha = document.getElementById('erro-senha');
+
+    btinLogin.addEventListener('click', () => {
+        // Valida o campo "Usuário"
+        if (usuarioInput.value === '') {
+            erroUsuario.textContent = 'Por favor, preencha o campo Usuário';
+        } else if (!usuarioInput.checkValidity()) {
+            erroUsuario.textContent = 'Por favor, insira um endereço de e-mail válido';
+        } else {
+            erroUsuario.textContent = '';
+        }
+
+        // Valida o campo "Senha"
+        if (senhaInput.value === '') {
+            erroSenha.textContent = 'Por favor, preencha o campo Senha';
+        } else if (senhaInput.value.length < 8) {
+            erroSenha.textContent = 'A senha deve ter pelo menos 8 caracteres';
+        } else {
+            erroSenha.textContent = '';
+        }
+    });
+
+    const form = document.getElementById('login-form');
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', '/login');
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.onload = () => {
+            // Trata a resposta do servidor
+        };
+        xhr.send(JSON.stringify({
+            email: form.elements.email.value,
+            password: form.elements.password.value
+        }));
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
