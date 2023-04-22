@@ -1,3 +1,4 @@
+/*Retirando margem para o contéudo ocupar 100% da tela*/
 body{
     margin: 0;
 }
@@ -14,6 +15,9 @@ body * {
     justify-content: center;
     align-items: center;
 }
+
+/*As configurações left-login e right-login correspondem as configurações,
+ que permitem que a imagem (Adicionada posteriormente) fique ao lado do questionário*/
 
 .left-login{
     width: 50vw;
@@ -53,11 +57,15 @@ body * {
     box-shadow: 0px 10px 40px #00000056;
 }
 
+
 .card-login > h1 {
     color: #00ff88;
     font-weight: 800;
     margin: 0;
 }
+
+/*Configuração dos campos Usuário e Senha*/
+/*Configuração da localização, tamanho e display dos campos*/
 
 .textfield{
     width: 100%;
@@ -67,6 +75,7 @@ body * {
     justify-content: center;
     margin: 10px 0px;
 }
+
 
 .textfield > input{
     width: 100%;
@@ -91,6 +100,8 @@ body * {
     color: #f0ffff94;
 }
 
+/*Configuração do botão de Login*/
+
 .btin-login{
     width: 100%;
     padding: 16px 0px;
@@ -107,6 +118,8 @@ body * {
     box-shadow: 0px 10px 40px -12px #00ff8052;
     
 }
+
+/*Configuração de Responsividade*/
 
 @media only screen and (mmax-width: 950px){
     .card-login{

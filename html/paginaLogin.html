@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../css/login.css">
     <title>Faça seu Login! - Michelin</title>
 </head>
+
+<!--Código para o formulário apresentado na tela de Login-->
     
 <body>
     <div class="main-login">
@@ -26,7 +28,7 @@
         <button class="btin-login" id="btin-login">Login</button>
         <div class="signup-link">
            
-            <p>Não tem uma conta?<a href="../html/paginaCriarConta.html" target="_blank"> Criar Conta</a></p>
+            <p>Não tem uma conta?<a href="../html/paginaCriarConta.html"> Criar Conta</a></p>
         </div>
         <div class="google-login">
             <button class="google-btin-login">Login com o Google</button>
@@ -38,6 +40,9 @@
 
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 <meta name="google-signin-client_id" content="SEU_CLIENT_ID_DO_GOOGLE">
+
+<!--Script abaixo corresponde a validação dos campos usuário e senha, mostrando uma mensagem de erro caso o user não preencha corretamente os campos
+ou deixe eles vazios, o impedindo de serem enviados-->
 
 <script>
     const btinLogin = document.getElementById('btin-login');
