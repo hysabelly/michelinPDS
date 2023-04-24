@@ -50,7 +50,7 @@ body * {
 }
 
 .card-login{
-    width: 60%;
+    width: 40%; /*Tamanho do campo de login*/
     display: flex;
     justify-content: center;
     align-items: center;
