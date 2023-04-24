@@ -52,5 +52,62 @@ botao.addEventListener('click' , function logar(){
 
 })
 
+//Código para API do google
+
+
+  function onSuccess(googleUser) {
+    console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+  }
+
+  function onFailure(error) {
+    console.log(error);
+  }
+
+  function signIn() {
+    var googleUser = gapi.auth2.getAuthInstance().signIn();
+    googleUser.then(onSuccess, onFailure);
+  }
+
+  function renderButton() {
+    gapi.signin2.render('google-signin-button', {
+      'scope': 'profile email',
+      'width': 240,
+      'height': 50,
+      'longtitle': true,
+      'theme': 'dark',
+      'onsuccess': onSuccess,
+      'onfailure': onFailure
+    });
+  }
+  gapi.load('auth2', function() {
+    gapi.auth2.init({
+      client_id: 'YOUR_CLIENT_ID_HERE', //Trocar pelo ID que o google cloud vai fornecer
+    });
+    renderButton();
+  });
+
+  //Código para API do facebook
+  function checkLoginState() {
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+  }
+
+  function statusChangeCallback(response) {
+    if (response.status === 'connected') {
+      console.log('Logged in as: ' + response.authResponse.name);
+    } else {
+      console.log('Not logged in.');
+    }
+  }
+
+  function signIn() {
+    FB.login(function(response) {
+      statusChangeCallback(response);
+    }, {scope: 'public_profile,email'});
+  }
+
+
+
 
 

@@ -166,3 +166,67 @@ body * {
 .signup-link > p > a{
     color: #ffffff;
 }
+
+/*Código de estilo do botão sign-in with google*/
+
+.google-signin-button {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .google-signin-button:hover {
+    background-color: #2d81e2;;
+    color: #fff;
+  }
+  
+  .google-signin-button img {
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+  }
+
+  /*Código para estilização do botão sign-in with facebook*/
+
+  .facebook-login-button {
+    background-color: #3b5998;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .facebook-login-button:hover {
+    background-color: #2f477a;
+  }
+  
+  .facebook-login-button img {
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .google-signin-button, .facebook-login-button {
+    margin-right: 10px; 
+  }
+  
+  

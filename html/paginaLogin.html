@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="..//favicon.ico">
     <link rel="stylesheet" href="../css/login.css">
+    <!--Linhas 10 e 11 são os links das API's do google e facebook pra sign-in-->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v12.0&appId=SEU_ID_AQUI&autoLogAppEvents=1" nonce="O6kP5oKj"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>Faça seu Login! - Michelin</title>
 </head>
@@ -31,15 +34,23 @@
                
 
                 <div class="btin-login">
-                    <button style="background: #2d81e2; color: aliceblue;" class="btn form-control" id="btnLogar" onclick="">Login</button>
+                    <button style="background: #2d81e2; color: aliceblue; font-size:18px ;" class="btn form-control" id="btnLogar" onclick="">Login</button>
                 </div>
 
                 <div class="signup-link">
                     <p style="color: aliceblue;">Primeiro acesso?<a href="../html/paginaCriarConta.html"> Cadastre-se</a></p>
                 </div>
-                <div class="google-login">
-                    <button class="google-btin-login">Login com Google</button>
-                </div>
+                <div class="button-container">
+                    <button class="google-signin-button" onclick="signIn()">
+                      <img src="https://clipartart.com/images/clipart-google-logo-1.jpg" alt="Google logo" /> Sign in with Google
+                    </button>
+                  
+                    <button class="facebook-login-button" onclick="signIn()">
+                      <img src="https://kohila.edu.ee/wp-content/uploads/2020/04/6744629-300x300.png" alt="Facebook-logo"> Sign in with Facebook
+                    </button>
+                  </div>
+                  
+          
             </div>
         </div>
     </form>
@@ -49,11 +60,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
     
+    
+   <!--- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script> -->
+   
 
-    <!--Cógido abaixo corresponde ao botão de login com o google, após a hospedadem adicionar o id do sistema no content-->
 
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-<meta name="google-signin-client_id" content="SEU_CLIENT_ID_DO_GOOGLE">
+
+   
 
 <!--Script abaixo corresponde a validação dos campos usuário e senha, mostrando uma mensagem de erro caso o user não preencha corretamente os campos
 ou deixe eles vazios, o impedindo de serem enviados-->
@@ -88,6 +101,9 @@ ou deixe eles vazios, o impedindo de serem enviados-->
     
 
 </script>
+
+
+
 
 
 
