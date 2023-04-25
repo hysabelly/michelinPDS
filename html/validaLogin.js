@@ -43,9 +43,15 @@ botao.addEventListener('click' , function logar(){
     //Se as informações respondidas corresponderem ao que está na Array o usuário é levado para a página inicial
      //Se as informações estiverem incorretas aparece uma janela de erro.
      
+     
+
     if(validaLogin == true){
-        location.href = 'paginaInicial.html'
-    }else{
+      window.location.replace('paginaInicial.html');
+      
+
+    }
+    
+    else{
         alert('usuário ou senha incorretos')
     }
 
