@@ -7,4 +7,14 @@
   <welcome-file-list>
     <welcome-file>paginaLogin.html</welcome-file>
   </welcome-file-list>
+
+  <servlet>
+    <servlet-name>MeuServlet</servlet-name>
+    <servlet-class>com.azure.michellin.servlets.MeuServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>MeuServlet</servlet-name>
+    <url-pattern>/MeuServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
