@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/d7ab1801-c1d7-4e9b-acb0-2e6e800308a8/resourceGroups/Michellin_group/providers/Microsoft.Web/sites/Michellin",
-    "appService.deploySubpath": "."
-}
