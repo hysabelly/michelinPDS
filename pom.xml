@@ -6,7 +6,7 @@
   <groupId>com.azure.michellin</groupId>
   <artifactId>my-app</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <name>Michellin</name>
   <description>Personalizar a experiência do usuário em sua seleção de restaurantes</description>
 </project>
