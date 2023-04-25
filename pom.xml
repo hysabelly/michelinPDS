@@ -4,12 +4,24 @@
                              http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.azure.michellin</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>2.6</version>
-  <configuration>
-    <failOnMissingWebXml>false</failOnMissingWebXml>
-  </configuration>
+  <artifactId>my-app</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
   <packaging>war</packaging>
+
   <name>Michellin</name>
   <description>Personalizar a experiência do usuário em sua seleção de restaurantes</description>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version>
+        <configuration>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
