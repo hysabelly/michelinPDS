@@ -17,29 +17,10 @@
   <artifactId>my-app</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <servlet>
-    <servlet-name>MeuServlet</servlet-name>
-    <servlet-class>com.azure.michellin.servlets.MeuServlet</servlet-class>
-  </servlet>
-
-  <servlet-mapping>
-    <servlet-name>MeuServlet</servlet-name>
-    <url-pattern>/MeuServlet</url-pattern>
-  </servlet-mapping>
-</web-app>
   <packaging>war</packaging>
 
   <name>Michellin</name>
   <description>Personalizar a experiência do usuário em sua seleção de restaurantes</description>
-
-  <dependencies>
-    <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>javax.servlet-api</artifactId>
-      <version>4.0.1</version>
-      <scope>provided</scope>
-    </dependency>
-  </dependencies>
 
   <build>
     <plugins>

@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "package:my-app",
+    "appService.deploySubpath": "target\\my-app-1.0-SNAPSHOT.war",
+    "appService.defaultWebAppToDeploy": "/subscriptions/d7ab1801-c1d7-4e9b-acb0-2e6e800308a8/resourceGroups/Michellin_group/providers/Microsoft.Web/sites/Michellin"
+}
