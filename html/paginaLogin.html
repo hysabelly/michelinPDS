@@ -6,33 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="..//favicon.ico">
     <link rel="stylesheet" href="../css/login.css">
+    <!--Carrrega biblioteca do Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--Linhas 10 e 11 são os links das API's do google e facebook pra sign-in-->
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v12.0&appId=SEU_ID_AQUI&autoLogAppEvents=1" nonce="O6kP5oKj"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <title>Faça seu Login! - Michelin</title>
+    <title class = "lang" key = "faça seu login">Faça seu Login! - Michelin</title>
 </head>
 
 <!--Código para o formulário apresentado na tela de Login-->
     
 <body>
+ <!--Escolha  dos idiomas-->
+ <div id = "idiomas">
+    <select id="year" onchange="salvarValorSelect()"> 
+        <option value="pt" id="pt">PT</option>
+        <option value="en" id="en">EN</option>
+      </select>
+</div>
 
     <div class="header">
         <img src="Logo copy.png" alt="Logo da empresa">
    
-       
     </div>
     
         <div class="main-login">
             <div class="card-login">
-                <h1>LOGIN</h1>
+                <h1 class = "lang" key = "conecte-se">Conecte-se</h1>
                 <div class="textfield">
-                    <label for="">E-mail</label>
+                    <label class = "lang" for="" key = "email">E-mail</label>
                     <input type="text" id="usuario" class="form-control">
                     <div class="erro" id="erro-usuario"></div>
                 </div>
                 <div class="textfield">
-                    <label for="">Senha</label>
+                    <label class = "lang" for="" key = "senha">Senha</label>
                     <input type="password" id="senha" class="form-control" minlength="8">
                     <div class="erro" id="erro-senha"></div>
                 </div>
@@ -40,19 +48,19 @@
                
 <br>
                 <div>
-                    <button class="btn btn-success form-control" id="btnLogar">Logar</button>
-                </div>
+                    <button class="btn btn-success form-control lang" id="btnLogar" key = "logar">Logar</button>
+                </div><br>
 
                 <div class="signup-link">
-                    <p style="color: aliceblue;">Primeiro acesso?<a href="../html/paginaCriarConta.html"> Cadastre-se</a></p>
+                    <b class = "lang" style="color: aliceblue;"key = "primeiro acesso">Primeiro acesso ?</b><a class = "lang" href="../html/paginaCriarConta.html" key = "cadastre-se"> Cadastre-se</a><br><br>
                 </div>
                 <div class="button-container">
                     <button class="google-signin-button" onclick="signIn()">
-                      <img src="https://clipartart.com/images/clipart-google-logo-1.jpg" alt="Google logo" /> Sign in with Google
+                      <img src="https://clipartart.com/images/clipart-google-logo-1.jpg" alt="Google logo" /> <h6 class = "lang" key = "google">Faça login no Google</h6>
                     </button>
                   
                     <button class="facebook-login-button" onclick="signIn()">
-                      <img src="https://kohila.edu.ee/wp-content/uploads/2020/04/6744629-300x300.png" alt="Facebook-logo"> Sign in with Facebook
+                      <img src="https://kohila.edu.ee/wp-content/uploads/2020/04/6744629-300x300.png" alt="Facebook-logo"> <h6 class = "lang" key = "facebook">Faça login com o Facebook</h6> 
                     </button>
                   </div>
                   
@@ -108,6 +116,8 @@ ou deixe eles vazios, o impedindo de serem enviados-->
     
 
 </script> 
+<script src ="idiomas.js"></script>
+
 
 </body>
 </html>

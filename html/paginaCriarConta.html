@@ -6,45 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/login.css">
     <link rel="shortcut icon" type="image/x-icon" href="..//favicon.ico">
-    <title>Cadastre-se! - Michelin</title>
+    <title class = "lang" key = "cadastre-se!-michelin">Cadastre-se! - Michelin</title>
+    <!--Carrrega biblioteca do Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
     
 <body>
+    <!--Escolha  dos idiomas-->
+    <div id = "idiomas">
+        <select id="year"> 
+            <option value="pt" id="pt">PT</option>
+            <option value="en" id="en">EN</option>
+          </select>
+    </div>
+
     <div class="main-login">
         <div class="card-login">
-         <h1>Criar Conta</h1>
+         <h1 class = "lang" key = "conta">Criar Conta</h1>
          <div class="textfield">
-             <label for="usuario">Nome</label>
+             <label class = "lang" for="usuario" key = "nome">Nome</label>
              <input type="name" name="nome" id="nome" placeholder="Nome">
              <div class="erro" id="erro-usuario"></div>
          </div>
          <div class="textfield">
-             <label for="Email">Email</label>
+             <label class = "lang" for="Email" key = "email" >E-mail</label>
              <input type="email" name="Email" id="email" placeholder="Email" >
              <div class="erro" id="erro-email"></div>
          </div>
          <div class="textfield">
-            <label for="Senha">Senha</label>
+            <label class = "lang" for="Senha" key = "senha">Senha</label>
             <input type="password" name="Senha" id="senha" placeholder="Senha" minlength="8">
             <div class="erro" id="erro-senha"></div>
         </div>
-         <button class="btin-login" id="btin-login">Criar Conta</button>
+         <button class="btin-login lang" id="btin-login" key = "conta">Criar Conta</button>
          
          <div class="signup-link"> </div>
 
          <div class="button-container">
             <button class="google-signin-button" onclick="signIn()">
-              <img src="https://clipartart.com/images/clipart-google-logo-1.jpg" alt="Google logo" /> Sign in with Google
+              <img src="https://clipartart.com/images/clipart-google-logo-1.jpg" alt="Google logo" /> <h5 class = "lang" key = "google">Faça login no Google</h5>
             </button>
           
             <button class="facebook-login-button" onclick="signIn()">
-              <img src="https://kohila.edu.ee/wp-content/uploads/2020/04/6744629-300x300.png" alt="Facebook-logo"> Sign in with Facebook
+            <img  src="https://kohila.edu.ee/wp-content/uploads/2020/04/6744629-300x300.png" alt="Facebook-logo"><h5 class = "lang" key = "facebook">Faça login com o Facebook</h5> 
             </button>
           </div>
          
      </div>
      </div>
-
+     <script src ="idiomas.js"></script>
      <script>
         const btinLogin = document.getElementById('btin-login');
         const usuarioInput = document.getElementById('usuario');
