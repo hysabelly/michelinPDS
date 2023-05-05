@@ -46,6 +46,8 @@ var arrLang = {
     }
   };
 
+
+
   $(function(){
   $('#year').change(function(){
       var lang = $(this).val();
@@ -55,6 +57,64 @@ var arrLang = {
       });
   });
 });
+
+
+  // Função para obter o valor de um cookie pelo nome
+  function getCookie(name) {
+    var cookies = document.cookie.split(';');
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = cookies[i].trim();
+      if (cookie.indexOf(name + '=') === 0) {
+        return cookie.substring(name.length + 1);
+      }
+    }
+    return null;
+  }
+  
+  // Função para definir o valor de um cookie
+  function setCookie(name, value, days) {
+    var expires = '';
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = '; expires=' + date.toUTCString();
+    }
+    document.cookie = name + '=' + value + expires + '; path=/';
+  }
+  
+  // Função para obter o idioma do cookie ou do navegador (padrão)
+  function getLanguage() {
+    var lang = getCookie('lang');
+    if (lang && arrLang[lang]) {
+      return lang;
+    } else {
+      return navigator.language.substring(0, 2);
+    }
+  }
+  
+  // Função para definir o idioma atual na página e no cookie
+  function setLanguage(lang) {
+    if (arrLang[lang]) {
+      $('.lang').each(function(index, element) { 
+        $(this).text(arrLang[lang][$(this).attr('key')]); 
+      });
+      setCookie('lang', lang, 365);
+    }
+  }
+  
+  // Atualiza o idioma quando a página carrega
+  $(function() {
+    var lang = getLanguage();
+    setLanguage(lang);
+    $('#year').val(lang); // Atualiza o seletor de idioma
+  });
+  
+  // Atualiza o idioma quando o usuário seleciona uma opção
+  $('#year').change(function() {
+    var lang = $(this).val();
+    setLanguage(lang);
+  });
+  
 
 
 
