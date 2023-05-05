@@ -21,7 +21,8 @@ var arrLang = {
         'cadastre-se':'Register',
         'faça seu login': 'Login ! - Michelin',
         'logar': "Log on",
-        'conecte-se':'login'
+        'conecte-se':'login',
+        
          
     },
     'pt' : {

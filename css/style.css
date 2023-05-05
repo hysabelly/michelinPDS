@@ -298,3 +298,13 @@
     -o-transform:scale(1.1); /* Opera */
     transform:scale(1.1);
 }
+
+footer {
+    color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .link-sem-linha {
+    color: black;
+    text-decoration: none; /* remove o sublinhado padrão */
+  }
