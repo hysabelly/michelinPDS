@@ -71,3 +71,45 @@ carousel.addEventListener("touchmove", dragging);
 
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
+
+/*Configuração janela pop-up */
+
+// Seleciona todas as imagens
+const images = document.querySelectorAll('img');
+
+// Seleciona a janela pop-up e os elementos de conteúdo
+const popup = document.getElementById('popup');
+const popupNome = document.getElementById('popup-nome');
+const popupEndereco = document.getElementById('popup-endereco');
+const popupTelefone = document.getElementById('popup-telefone');
+const popupHorario = document.getElementById('popup-horario');
+
+// Adiciona um evento de clique a cada imagem
+images.forEach(image => {
+  image.addEventListener('click', () => {
+    // Obtém os dados da imagem clicada
+    const nome = image.dataset.nome;
+    const endereco = image.dataset.endereco;
+    const telefone = image.dataset.telefone;
+    const horario = image.dataset.horario;
+    
+
+    // Preenche a janela pop-up com os dados da imagem
+    popupNome.textContent = nome;
+    popupEndereco.textContent = endereco;
+    popupTelefone.textContent = telefone;
+    popupHorario.textContent = horario;
+   
+
+    // Exibe a janela pop-up
+    popup.style.display = 'block';
+  });
+});
+
+/*Fecha a janela ao clicar no X */
+var closeButton = document.getElementById("close-button");
+closeButton.addEventListener("click", function() {
+  popup.style.display = "none";
+});
+
+
