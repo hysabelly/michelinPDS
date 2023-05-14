@@ -1,24 +1,139 @@
+
+//Configuração do primeiro carrossel
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
 arrowIcons = document.querySelectorAll(".wrapper i");
 
+//Configuração do segundo carrossel
+const newCarousel = document.querySelector('.Tradicional .carousel');
+const newArrowIcons = document.querySelectorAll('.Tradicional i');
+const newFirstImg = document.querySelector('.Tradicional img');
+
+//Configuração do terceiro carrossel
+const newCarousel2 = document.querySelector('.Comida-Regional .carousel');
+const newArrowIcons2 = document.querySelectorAll('.Comida-Regional i');
+const newFirstImg2 = document.querySelector('.Comida-Regional img');
+
+//Configuração do quarto carrossel
+const newCarousel3 = document.querySelector('.Cafeteria .carousel');
+const newArrowIcons3 = document.querySelectorAll('.Cafeteria i');
+const newFirstImg3 = document.querySelector('.Cafeteria img');
+
+//Configuração do quinto carrossel
+const newCarousel4 = document.querySelector('.Slide5 .carousel');
+const newArrowIcons4 = document.querySelectorAll('.Slide5 i');
+const newFirstImg4 = document.querySelector('.Slide5 img');
+
+//Configuração do sexto carrossel
+const newCarousel5 = document.querySelector('.Slide6 .carousel');
+const newArrowIcons5 = document.querySelectorAll('.Slide6 i');
+const newFirstImg5 = document.querySelector('.Slide6 img');
+
 let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
 
-const showHideIcons = () => {
+
+//Configiração do primeiro carrossel
+    const showHideIcons = () => {
     // showing and hiding prev/next icon according to carousel scroll left value
     let scrollWidth = carousel.scrollWidth - carousel.clientWidth; // getting max scrollable width
     arrowIcons[0].style.display = carousel.scrollLeft == 0 ? "none" : "block";
     arrowIcons[1].style.display = carousel.scrollLeft == scrollWidth ? "none" : "block";
 }
 
-arrowIcons.forEach(icon => {
-    icon.addEventListener("click", () => {
+//Configuração do segundo carrossel
+    const showHideNewIcons = () => {
+    let newScrollWidth = newCarousel.scrollWidth - newCarousel.clientWidth;
+    newArrowIcons[0].style.display = newCarousel.scrollLeft == 0 ? 'none' : 'block';
+    newArrowIcons[1].style.display = newCarousel.scrollLeft == newScrollWidth ? 'none' : 'block';
+  };
+
+//Configuração do terceiro carrossel
+    const showHideNewIcons2 = () => {
+    let newScrollWidth = newCarousel2.scrollWidth - newCarousel2.clientWidth;
+    newArrowIcons2[0].style.display = newCarousel2.scrollLeft == 0 ? 'none' : 'block';  
+    newArrowIcons2[1].style.dispaly = newCarousel2.scrollLeft == newScrollWidth ? 'none' : 'block';
+}
+
+//Configuração do quarto carrossel
+    const showHideNewIcons3 = () => {
+    let newScrollWidth = newCarousel3.scrollWidth - newCarousel3.clientWidth;
+    newArrowIcons3[0].style.display = newCarousel3.scrollLeft == 0 ? 'none' : 'block';
+    newArrowIcons3[1].style.display = newCarousel3.scrollLeft == newScrollWidth ? 'none' : 'block';
+  };
+
+//Configuração do quinto carrossel
+    const showHideNewIcons4 = () => {
+    let newScrollWidth = newCarousel4.scrollWidth - newCarousel4.clientWidth;
+    newArrowIcons4[0].style.display = newCarousel4.scrollLeft == 0 ? 'none' : 'block';
+    newArrowIcons4[1].style.display = newCarousel4.scrollLeft == newScrollWidth ? 'none' : 'block';
+  };
+
+//Configuração do sexto carrossel
+    const showHideNewIcons5 = () => {
+    let newScrollWidth = newCarousel5.scrollWidth - newCarousel5.clientWidth;
+    newArrowIcons5[0].style.display = newCarousel5.scrollLeft == 0 ? 'none' : 'block';
+    newArrowIcons5[1].style.display = newCarousel5.scrollLeft == newScrollWidth ? 'none' : 'block';
+  };
+
+
+
+//Configuração do primeiro carrossel
+        arrowIcons.forEach(icon => {
+        icon.addEventListener("click", () => {
         let firstImgWidth = firstImg.clientWidth + 14; // getting first img width & adding 14 margin value
         // if clicked icon is left, reduce width value from the carousel scroll left else add to it
         carousel.scrollLeft += icon.id == "left" ? -firstImgWidth : firstImgWidth;
         setTimeout(() => showHideIcons(), 60); // calling showHideIcons after 60ms
     });
 });
+
+
+//Configuração do segundo carrossel
+      newArrowIcons.forEach(icon => {
+      icon.addEventListener('click', () => {
+      let newFirstImgWidth = newFirstImg.clientWidth + 14;
+      newCarousel.scrollLeft += icon.id == 'new-left' ? -newFirstImgWidth : newFirstImgWidth;
+      setTimeout(() => showHideNewIcons(), 60);
+    });
+  });
+
+
+//Configuração do terceiro carrossel
+        newArrowIcons2.forEach(icon => {
+        icon.addEventListener('click', () => {
+        let newFirstImgWidth = newFirstImg2.clientWidth + 14;
+        newCarousel2.scrollLeft += icon.id == 'new-left2' ? -newFirstImgWidth : newFirstImgWidth;
+        setTimeout(() => showHideNewIcons2(), 60);
+    })
+});
+
+//Configuração do quarto carrossel
+        newArrowIcons3.forEach(icon => {
+        icon.addEventListener('click', () => {
+        let newFirstImgWidth = newFirstImg2.clientWidth + 14;
+        newCarousel3.scrollLeft += icon.id == 'new-left3' ? -newFirstImgWidth : newFirstImgWidth;
+        setTimeout(() => showHideNewIcons3(), 60);
+    })
+});
+
+//Configuração do quinto carrossel
+        newArrowIcons4.forEach(icon => {
+        icon.addEventListener('click', () => {
+        let newFirstImgWidth = newFirstImg4.clientWidth + 14;
+        newCarousel4.scrollLeft += icon.id == 'new-left4' ? -newFirstImgWidth : newFirstImgWidth;
+        setTimeout(() => showHideNewIcons4(), 60);
+    })
+});
+
+//Configuração do sexto carrossel
+        newArrowIcons5.forEach(icon => {
+        icon.addEventListener('click', () => {
+        let newFirstImgWidth = newFirstImg5.clientWidth + 14;
+        newCarousel5.scrollLeft += icon.id == 'new-left5' ? -newFirstImgWidth : newFirstImgWidth;
+        setTimeout(() => showHideNewIcons5(), 60);
+    })
+});
+
 
 const autoSlide = () => {
     // if there is no image left to scroll then return from here
