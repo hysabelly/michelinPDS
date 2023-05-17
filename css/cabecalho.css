@@ -50,6 +50,7 @@ nav {
     background-color: rgba(26, 24, 24, 0.5);
     outline: 1px solid #000000;
     border-radius: 20px;
+    
 }
   
 /* Define a cor do texto que aparece antes da pessoa digitar */
@@ -60,10 +61,18 @@ nav {
 
 .icon-container {
     margin-left: 10px;
+     position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
   }
   
 .inline-search-component.active .search-container {
     padding: 10px 20px;
+    
+    
+    
+    
   }
   
 .inline-search-component.active .bi-search {
