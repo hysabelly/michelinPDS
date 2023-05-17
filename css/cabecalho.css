@@ -42,47 +42,42 @@ nav {
   
 /*Definindo o fundo da caixa de pesquisa e outras propriedades*/
 .inline-search-input {
-    flex-grow: 1;
-    border: none;
-    padding: 8px;
-    font-size: 14px;
-    color: #ffffff;
-    background-color: rgba(26, 24, 24, 0.5);
-    outline: 1px solid #000000;
-    border-radius: 20px;
-    
+  flex-grow: 1;
+  border: none;
+  padding: 8px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: rgba(26, 24, 24, 0.5);
+  outline: 1px solid #000000;
+  border-radius: 20px;
 }
-  
-/* Define a cor do texto que aparece antes da pessoa digitar */
+
 .inline-search-input::placeholder {
-    color: #ffffff;
-    opacity: 1; 
-  }
+  color: #ffffff;
+  opacity: 1;
+}
 
 .icon-container {
-    margin-left: 10px;
-     position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-  }
-  
+  margin-left: 10px;
+}
+
+.inline-search-component {
+  position: absolute;
+  top: 50%;
+  right: 150px;
+  transform: translateY(-50%);
+}
+
 .inline-search-component.active .search-container {
-    padding: 10px 20px;
-    
-    
-    
-    
-  }
-  
-.inline-search-component.active .bi-search {
-    display: none;
-  }
-  
-.inline-search-component.active .bi-x {
-    display: inline-block;
-  }
-  
-.bi {
-    vertical-align: middle;
+  padding: 10px 20px;
+}
+
+.icon-container {
+  position: static;
+  transform: none;
+  margin-left: 0;
+}
+
+header {
+  position: relative;
 }
