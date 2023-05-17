@@ -18,6 +18,62 @@ nav {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 
-
-
+/*Configurando o estilo da search box*/
+.inline-search-component {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    max-width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+  }
   
+.inline-search-component.active {
+    height: auto;
+  }
+  
+.search-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+/*Definindo o fundo da caixa de pesquisa e outras propriedades*/
+.inline-search-input {
+    flex-grow: 1;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: rgba(26, 24, 24, 0.5);
+    outline: 1px solid #000000;
+    border-radius: 20px;
+}
+  
+/* Define a cor do texto que aparece antes da pessoa digitar */
+.inline-search-input::placeholder {
+    color: #ffffff;
+    opacity: 1; 
+  }
+
+.icon-container {
+    margin-left: 10px;
+  }
+  
+.inline-search-component.active .search-container {
+    padding: 10px 20px;
+  }
+  
+.inline-search-component.active .bi-search {
+    display: none;
+  }
+  
+.inline-search-component.active .bi-x {
+    display: inline-block;
+  }
+  
+.bi {
+    vertical-align: middle;
+}
