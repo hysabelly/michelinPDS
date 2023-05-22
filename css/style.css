@@ -151,5 +151,45 @@ body{
   font-size: 30px;
 }
 
+/*Configuração Footer*/
+
+#myFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+ 
+  
+}
+
+.links a {
+  margin-right: 20px;
+  color: #333;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.links a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+
 
 
