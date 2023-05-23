@@ -22,7 +22,8 @@ var arrLang = {
         'faça seu login': 'Login ! - Michelin',
         'logar': "Log on",
         'conecte-se':'login',
-        
+        'Sair': 'Exit',
+        'editarcad': "Edit Register",
          
     },
     'pt' : {
@@ -43,7 +44,9 @@ var arrLang = {
         'cadastre-se':'Cadastre-se',
         'faça seu login': 'Faça seu login! - Michelin',
         'logar': "Logar",
-        'conecte-se':'Conecte-se'
+        'conecte-se':'Conecte-se',
+        'Sair':'Sair',
+        'editarcad': "Editar Cadastro",
     }
   };
 
