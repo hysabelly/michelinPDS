@@ -24,6 +24,9 @@ var arrLang = {
         'conecte-se':'login',
         'Sair': 'Exit',
         'editarcad': "Edit Register",
+        'Politica': "Privacy Policy",
+        'Sobre': "About Us",
+        
          
     },
     'pt' : {
@@ -47,6 +50,9 @@ var arrLang = {
         'conecte-se':'Conecte-se',
         'Sair':'Sair',
         'editarcad': "Editar Cadastro",
+        'Politica': "Política de Privacidade",
+        'Sobre': "Sobre Nós",
+        
     }
   };
 
