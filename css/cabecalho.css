@@ -6,7 +6,7 @@
 
 /*Definindo a margem à direita para os itens do cabeçalho*/
 .nav-link {
-    margin-right: 40px;
+    margin-right: 95px; /*Configuração que arruma todos os itens do cabeçalho*/
 }
 
 /*Definindo o sublinhado para o link em que a pessoa está*/
