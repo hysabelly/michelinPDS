@@ -41,6 +41,9 @@
           <li class="nav-item">
             <a class="nav-link fw-semibold lang" aria-current="page" href="../html/paginaFavoritos.html" key = "favoritos">Favoritos</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold lang" aria-current="page" href="../html/paginaParaVoce.html" key="questionarioParaVoce">Questionario Para Voce</a>
+          </li>
           <!--Escolha dos idiomas-->
           <select id="year">
             <option value="pt" id="pt">PT</option>
@@ -67,7 +70,164 @@
     </div>
   </nav>
 
- 
+<!-- codigo da pagina -->
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .question {
+      margin-bottom: 10px;
+    }
+
+    .options {
+      margin-bottom: 20px;
+    }
+
+    .result {
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<br><br><br><br><br><br>
+  <h1>Questionário</h1>
+
+  <div class="question">
+    <p>1. Você deseja uma refeição rápida ou mais elaborada?</p>
+    <div class="options">
+      <input type="radio" name="q1" value="rapida"> Rápida<br>
+      <input type="radio" name="q1" value="elaborada"> Elaborada
+    </div>
+  </div>
+
+  <div class="question">
+    <p>2. Você deseja uma refeição mais casual ou mais diferente?</p>
+    <div class="options">
+      <input type="radio" name="q2" value="casual"> Casual<br>
+      <input type="radio" name="q2" value="diferente"> Diferente
+    </div>
+  </div>
+
+  <div class="question">
+    <p>3. Qual tipo de culinária desejada?</p>
+    <div class="options">
+      <input type="radio" name="q3" value="doce"> Doce<br>
+      <input type="radio" name="q3" value="salgada"> Salgada
+    </div>
+  </div>
+
+  <div id="sub-question" class="question" style="display: none;">
+    <p>4. Quente, fria ou massas?</p>
+    <div class="options">
+      <input type="radio" name="q4" value="quente"> Quente<br>
+      <input type="radio" name="q4" value="fria"> Fria<br>
+      <input type="radio" name="q4" value="massas"> Massas
+    </div>
+  </div>
+
+  <div class="question">
+    <p>5. Gostaria de comer massas?</p>
+    <div class="options">
+      <input type="radio" name="q5" value="sim"> Sim<br>
+      <input type="radio" name="q5" value="nao"> Não
+    </div>
+  </div>
+
+  <div class="question">
+    <p>6. Gostaria de comer carne vermelha?</p>
+    <div class="options">
+      <input type="radio" name="q6" value="sim"> Sim<br>
+      <input type="radio" name="q6" value="nao"> Não
+    </div>
+  </div>
+
+  <div class="question">
+    <p>7. Gostaria de comer frutos do mar, como peixe?</p>
+    <div class="options">
+      <input type="radio" name="q7" value="sim"> Sim<br>
+      <input type="radio" name="q7" value="nao"> Não
+    </div>
+  </div>
+
+  <div class="question">
+    <p>8. Gostaria de uma alimentação sem carnes?</p>
+    <div class="options">
+      <input type="radio" name="q8" value="sim"> Sim<br>
+      <input type="radio" name="q8" value="nao"> Não
+    </div>
+  </div>
+
+  <div id="result" class="result"></div>
+
+  <script>
+    function showResult() {
+      var q1 = document.querySelector('input[name="q1"]:checked');
+      var q2 = document.querySelector('input[name="q2"]:checked');
+      var q3 = document.querySelector('input[name="q3"]:checked');
+      var q4 = document.querySelector('input[name="q4"]:checked');
+      var q5 = document.querySelector('input[name="q5"]:checked');
+      var q6 = document.querySelector('input[name="q6"]:checked');
+      var q7 = document.querySelector('input[name="q7"]:checked');
+      var q8 = document.querySelector('input[name="q8"]:checked');
+      var result = document.getElementById('result');
+      var subQuestion = document.getElementById('sub-question');
+
+      if (q1 && q2 && q3) {
+        if (q1.value === "rapida") {
+          result.innerHTML = "Fast Food ou Populares";
+          return;
+        } else if (q2.value === "diferente") {
+          result.innerHTML = "Temático, Outras Culinárias ou Regionais";
+          return;
+        } else if (q3.value === "doce") {
+          subQuestion.style.display = "block";
+          return;
+        }
+      }
+
+      if (q4 && q4.value === "quente") {
+        result.innerHTML = "Sobremesas quentes";
+        return;
+      } else if (q4 && q4.value === "fria") {
+        result.innerHTML = "Sobremesas frias";
+        return;
+      } else if (q4 && q4.value === "massas") {
+        result.innerHTML = "Sobremesas";
+        return;
+      }
+
+      if (q5 && q5.value === "sim") {
+        result.innerHTML = "Espaguete, lasanha, pizza, nhoque";
+        return;
+      } else if (q6 && q6.value === "sim") {
+        result.innerHTML = "Restaurantes em geral, hamburguerias e churrascarias";
+        return;
+      } else if (q7 && q7.value === "sim") {
+        result.innerHTML = "Restaurantes de comida oriental e frutos do mar";
+        return;
+      } else if (q8 && q8.value === "sim") {
+        result.innerHTML = "Restaurantes veganos e vegetarianos";
+        return;
+      }
+
+      result.innerHTML = "Desculpe, não encontramos um restaurante para você.";
+      subQuestion.style.display = "none";
+    }
+
+    // Evento para exibir o resultado quando um botão for clicado
+    var buttons = document.querySelectorAll('input[type="radio"]');
+    buttons.forEach(function(button) {
+      button.addEventListener('click', showResult);
+    });
+  </script>
   
   
 
