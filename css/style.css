@@ -189,7 +189,86 @@ body{
   color: #000000;
 }
 
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family:'Sarala', sans-serif;
+}
 
+label, input, textarea, button {
+  display: block;
+  width: 50%;
+}
 
+label {
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  font-size: larger;
+}
 
+input, textarea {
+  background-color: #ffff;
+  font: inherit;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid  #000000;
+  border-radius: 4px;
+}
 
+textarea {
+  min-height: 5rem;
+  resize: vertical;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 0 1px #000000;
+}
+
+input:valid, textarea:valid {
+  border-color: rgb(8, 102, 8);
+  box-shadow: 0 0 0 1px #26a100;
+}
+
+button {
+  :root {
+    --cor-primaria-success: rgb(75, 200, 138);
+    --cor-hover-success: rgb(116, 158, 137);
+    --cor-secundaria-success: rgb(27, 66, 50);
+    
+    --cor-primaria-info: rgb(61, 157, 246);
+    --cor-hover-info: rgb(116, 134, 158);
+    --cor-secundaria-info: rgb(31, 62, 88);
+
+    --cor-primaria-danger: rgb(200, 75, 75);
+    --cor-hover-danger: rgb(158, 116, 116);
+    --cor-secundaria-danger: rgb(58, 22, 22);
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+}
+
+/*SUCCESS*/
+.btn-success {
+    background-color: var(--cor-primaria-success);
+    outline: none;
+    color: var(--cor-secundaria-success)
+}
+
+.btn-success:hover {
+    background-color: var(--cor-hover-success);
+}
+
+.btn-success:active {
+    color:var(--cor-primaria-success);
+    background-color: var(--cor-secundaria-success);
+}
