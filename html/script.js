@@ -198,6 +198,8 @@ const popupNome = document.getElementById('popup-nome');
 const popupEndereco = document.getElementById('popup-endereco');
 const popupTelefone = document.getElementById('popup-telefone');
 const popupHorario = document.getElementById('popup-horario');
+const popuprefeição = document.getElementById('popup-refeição');
+const popuppreços = document.getElementById('popup-preços');
 
 // Adiciona um evento de clique a cada imagem
 images.forEach(image => {
@@ -207,6 +209,8 @@ images.forEach(image => {
     const endereco = image.dataset.endereco;
     const telefone = image.dataset.telefone;
     const horario = image.dataset.horario;
+    const refeição = image.dataset.refeição;
+    const preços = image.dataset.preços;
     
 
     // Preenche a janela pop-up com os dados da imagem
@@ -214,6 +218,8 @@ images.forEach(image => {
     popupEndereco.textContent = endereco;
     popupTelefone.textContent = telefone;
     popupHorario.textContent = horario;
+    popuprefeição.textContent = refeição;
+    popuppreços.textContent = preços;
    
 
     // Exibe a janela pop-up

@@ -26,6 +26,7 @@ var arrLang = {
         'editarcad': "Edit Register",
         'Politica': "Privacy Policy",
         'Sobre': "About Us",
+        'Contato' : "Contact",
         
          
     },
@@ -52,6 +53,7 @@ var arrLang = {
         'editarcad': "Editar Cadastro",
         'Politica': "Política de Privacidade",
         'Sobre': "Sobre Nós",
+        'Contato' : "Contato",
         
     }
   };
