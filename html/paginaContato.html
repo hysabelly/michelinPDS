@@ -62,10 +62,37 @@
     </div>
   </nav>
 
-  <!--Código da página-->
+  <br><br><br><br><br><br><br>
 
- 
+  <section class="container">
+    <div class="fale-conosco">
+      <h1>Entre em Contato Conosco</h1>
+      <br>
+      <form  class="form" id="form" action="https://formsubmit.co/michelinpds@gmail.com" method="post">
 
+        <label for="name"><strong>Nome:</strong></label>
+        <input type="text" name="name" id="name" placeholder="Seu nome completo" required minlength="5" maxlength="50"/>
+        <br>
+
+        <label for="email"><strong>Email:</strong></label>
+        <input type="email" name="email" id="email" placeholder="Seu melhor e-mail" required maxlength="50"/>
+        <br>
+
+        <label for="message"><strong>Mensagem:</strong></label>
+        <textarea name="message" id="message" placeholder="O que você deseja?" required minlength="10" maxlength="300"></textarea>
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/html/obrigada.html">
+          
+        <br>
+        <button  class="btn btn-success" type="submit"> Enviar </button>
+
+      </form>
+
+      <br><br>
+
+      <h4>Outras formas de contato:</h4>
+      <p><strong>E-mail:</strong> michelinpds@gmail.com</p>
+
+  </section>
 
 
   <script src="idiomas.js"></script>
