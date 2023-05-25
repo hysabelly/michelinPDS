@@ -73,6 +73,12 @@ body{
   margin-left: 0px;
 }
 
+.carousel img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
+}
+
+
 @media screen and (max-width: 900px) {
   .carousel img{
     width: calc(100% / 2);
