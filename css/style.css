@@ -155,8 +155,8 @@ body{
 
 #myFooter {
   position: relative;
-  margin-top: auto;
- /* margin-top: 100px; Caso o footer esteja cobrindo o contéudo, aumente isso*/
+  
+  margin-top: 100px; /*Caso o footer esteja cobrindo o contéudo, aumente isso*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -282,4 +282,46 @@ button {
 .btn-success:active {
     color:var(--cor-primaria-success);
     background-color: var(--cor-secundaria-success);
+}
+
+/*Configuração Pg Sobre*/
+
+.div-config {
+  display: flex;
+  justify-content: center;
+  margin-bottom:20px;
+  margin-top: 50px;
+  margin-right: 25px;
+  background-color: white;
+  width:100vw;
+  height: 100px;
+}
+
+.ul-config {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.li-textos {
+  width: 700px;
+  padding: 5px;
+  height: 450px;
+  margin-top: 20px;
+  line-height: 30px;
+  text-align: justify;
+  color: black;
+  font-size: 22px;
+}
+
+
+.text-lateral {
+  width:100px;
+  height:40px;
+  margin-top: 20px;
+  text-align: center; 
+  margin-left: 100px;  
+  margin-right: 50px;    
+  list-style-type: none;
 }
