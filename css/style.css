@@ -154,17 +154,25 @@ body{
 /*Configuração Footer*/
 
 #myFooter {
+  position: relative;
+  margin-top: auto;
+ /* margin-top: 100px; Caso o footer esteja cobrindo o contéudo, aumente isso*/
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ffff;
   padding: 20px;
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  
 }
+
+section.container {
+  min-height: calc(100vh - 170px); /* Adjust the value (170px) based on your footer height and padding */
+}
+
+
+
 
 .footer-content {
   display: flex;
@@ -188,6 +196,8 @@ body{
   font-weight: bold;
   color: #000000;
 }
+
+/*Configuração da página de contato*/
 
 form {
   display: flex;
@@ -246,6 +256,7 @@ button {
     --cor-primaria-danger: rgb(200, 75, 75);
     --cor-hover-danger: rgb(158, 116, 116);
     --cor-secundaria-danger: rgb(58, 22, 22);
+}
 }
 
 .btn {
