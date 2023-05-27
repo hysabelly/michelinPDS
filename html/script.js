@@ -234,15 +234,6 @@ closeButton.addEventListener("click", function() {
 });
 
 
-/*Configuração do footer */
 
-window.addEventListener('scroll', function() {
-  var footer = document.getElementById('myFooter');
-  var contentHeight = document.body.scrollHeight - window.innerHeight;
-  if (window.pageYOffset >= contentHeight) {
-    footer.style.display = 'block';
-  } else {
-    footer.style.display = 'none';
-  }
-});
+
 
