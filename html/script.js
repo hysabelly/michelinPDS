@@ -29,6 +29,12 @@ const newCarousel5 = document.querySelector('.Slide6 .carousel');
 const newArrowIcons5 = document.querySelectorAll('.Slide6 i');
 const newFirstImg5 = document.querySelector('.Slide6 img');
 
+//Configuração do sétimo carrossel
+const newCarousel6 = document.querySelector('.Slide7 .carousel');
+const newArrowIcons6 = document.querySelectorAll('.Slide7 i');
+const newFirstImg6 = document.querySelector('.Slide7 img');
+
+
 let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
 
 
@@ -73,6 +79,13 @@ let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, position
     let newScrollWidth = newCarousel5.scrollWidth - newCarousel5.clientWidth;
     newArrowIcons5[0].style.display = newCarousel5.scrollLeft == 0 ? 'none' : 'block';
     newArrowIcons5[1].style.display = newCarousel5.scrollLeft == newScrollWidth ? 'none' : 'block';
+  };
+
+  //Configuração do sétimo carrossel
+  const showHideNewIcons6 = () => {
+    let newScrollWidth = newCarousel6.scrollWidth - newCarousel6.clientWidth;
+    newArrowIcons6[0].style.display = newCarousel6.scrollLeft == 0 ? 'none' : 'block';
+    newArrowIcons6[1].style.display = newCarousel6.scrollLeft == newScrollWidth ? 'none' : 'block';
   };
 
 
@@ -132,6 +145,15 @@ let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, position
         newCarousel5.scrollLeft += icon.id == 'new-left5' ? -newFirstImgWidth : newFirstImgWidth;
         setTimeout(() => showHideNewIcons5(), 60);
     })
+});
+
+//Configuração do sétimo carrossel
+newArrowIcons6.forEach(icon => {
+  icon.addEventListener('click', () => {
+  let newFirstImgWidth = newFirstImg6.clientWidth + 14;
+  newCarousel6.scrollLeft += icon.id == 'new-left6' ? -newFirstImgWidth : newFirstImgWidth;
+  setTimeout(() => showHideNewIcons6(), 60);
+})
 });
 
 
