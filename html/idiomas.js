@@ -27,6 +27,7 @@ var arrLang = {
         'Politica': "Privacy Policy",
         'Sobre': "About Us",
         'Contato' : "Contact",
+        'pesquisar' : "Search",
         
          
     },
@@ -54,6 +55,7 @@ var arrLang = {
         'Politica': "Política de Privacidade",
         'Sobre': "Sobre Nós",
         'Contato' : "Contato",
+        'pesquisar' : "Pesquisar",
         
     }
   };

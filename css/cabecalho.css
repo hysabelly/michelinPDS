@@ -14,70 +14,52 @@
     text-decoration: underline;
 }
 
+/*Define a sombra do header*/
 nav {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 
-/*Configurando o estilo da search box*/
-.inline-search-component {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 300px;
-    max-width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition: height 0.3s ease-out;
+/* Definindo a posição do elemento */
+  .nav-item {
+    position: relative; 
   }
   
-.inline-search-component.active {
-    height: auto;
+  /*Definindo propriedades da search box*/
+  .inline-search-component {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    width: 0; 
+    background-color: #ffffff; 
+    overflow: hidden; 
+    transition: width 0.3s;
+  }
+
+  /*Largura do campo de pesquisa*/
+  .inline-search-component.active {
+    width: 250px;
   }
   
-.search-container {
+  /*Propriedades dentro do campo de pesquisa*/
+  .search-container {
     display: flex;
-    align-items: center;
-    padding: 10px;
+    align-items: center; 
+    padding: 10px; 
   }
   
-/*Definindo o fundo da caixa de pesquisa e outras propriedades*/
-.inline-search-input {
-  flex-grow: 1;
-  border: none;
-  padding: 8px;
-  font-size: 14px;
-  color: #ffffff;
-  background-color: rgba(26, 24, 24, 0.5);
-  outline: 1px solid #000000;
-  border-radius: 20px;
-}
-
-.inline-search-input::placeholder {
-  color: #ffffff;
-  opacity: 1;
-}
-
-.icon-container {
-  margin-left: 10px;
-}
-
-.inline-search-component {
-  position: absolute;
-  top: 50%;
-  right: 150px;
-  transform: translateY(-50%);
-}
-
-.inline-search-component.active .search-container {
-  padding: 10px 20px;
-}
-
-.icon-container {
-  position: static;
-  transform: none;
-  margin-left: 0;
-}
-
-header {
-  position: relative;
-}
+  /*Estilização da search box*/
+  .inline-search-input {
+    flex-grow: 1; 
+    padding: 8px; 
+    font-size: 14px; 
+    border-radius: 20px; 
+    border: 2px solid #000000 !important; 
+    background-color: #ffffff; 
+    color: #000000; 
+    box-shadow: none !important;
+  }
+  
+  /*Animação de movimento dos elementos no header*/
+  .navbar-nav {
+    transition: margin-right 0.3s;
+  }
