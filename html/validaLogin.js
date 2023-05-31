@@ -36,30 +36,21 @@ botao.addEventListener('click' , function logar(){
             validaLogin = true
             break
         }
-        
-        
     }
 
     //Se as informações respondidas corresponderem ao que está na Array o usuário é levado para a página inicial
      //Se as informações estiverem incorretas aparece uma janela de erro.
-     
-     
-
+   
     if(validaLogin == true){
       window.location.replace('paginaInicial.html');
-      
-
     }
     
     else{
         alert('usuário ou senha incorretos')
     }
-
-
 })
 
 //Código para API do google
-
 
   function onSuccess(googleUser) {
     console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
@@ -85,6 +76,7 @@ botao.addEventListener('click' , function logar(){
       'onfailure': onFailure
     });
   }
+
   gapi.load('auth2', function() {
     gapi.auth2.init({
       client_id: 'YOUR_CLIENT_ID_HERE', //Trocar pelo ID que o google cloud vai fornecer
@@ -112,8 +104,3 @@ botao.addEventListener('click' , function logar(){
       statusChangeCallback(response);
     }, {scope: 'public_profile,email'});
   }
-
-
-
-
-
