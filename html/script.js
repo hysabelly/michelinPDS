@@ -201,7 +201,7 @@ carousel.addEventListener("touchmove", dragging);
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
 
-/*Configuração janela pop-up */
+// Janela pop-up configuração
 
 // Seleciona todas as imagens
 const images = document.querySelectorAll('img');
@@ -211,9 +211,9 @@ const popup = document.getElementById('popup');
 const popupNome = document.getElementById('popup-nome');
 const popupEndereco = document.getElementById('popup-endereco');
 const popupTelefone = document.getElementById('popup-telefone');
-const popupHorario = document.getElementById('popup-horario');
-const popuprefeição = document.getElementById('popup-refeição');
-const popuppreços = document.getElementById('popup-preços');
+const popupSite = document.getElementById('popup-site');
+const popupProximo = document.getElementById('popup-proximo');
+
 
 // Adiciona um evento de clique a cada imagem
 images.forEach(image => {
@@ -222,25 +222,26 @@ images.forEach(image => {
     const nome = image.dataset.nome;
     const endereco = image.dataset.endereco;
     const telefone = image.dataset.telefone;
-    const horario = image.dataset.horario;
-    const refeição = image.dataset.refeição;
-    const preços = image.dataset.preços;
+    const site = image.dataset.site;
+    const proximo = image.dataset.proximo;
+    
 
     // Preenche a janela pop-up com os dados da imagem
     popupNome.textContent = nome;
     popupEndereco.textContent = endereco;
     popupTelefone.textContent = telefone;
-    popupHorario.textContent = horario;
-    popuprefeição.textContent = refeição;
-    popuppreços.textContent = preços;
+    popupSite.textContent = site;
+    popupProximo.textContent = proximo;
 
+   
     // Exibe a janela pop-up
     popup.style.display = 'block';
   });
 });
 
-/*Fecha a janela ao clicar no X */
+/* Fecha a janela ao clicar no X */
 var closeButton = document.getElementById("close-button");
 closeButton.addEventListener("click", function() {
   popup.style.display = "none";
 });
+
