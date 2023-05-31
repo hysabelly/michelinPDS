@@ -111,6 +111,9 @@ body{
 
 /*Configuração Janela pop-up*/
 
+
+
+
 .popup {
   display: none;
   position: fixed;
@@ -123,6 +126,7 @@ body{
 }
 
 .popup-content {
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -136,15 +140,10 @@ body{
 .popup-content h2,
 .popup-content p {
   margin: 0;
+  text-align: left;
 }
 
-#popup-foto {
-  width: 90%;
-  height: 2cm;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 #close-button {
   position: absolute;
