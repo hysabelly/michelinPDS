@@ -1,7 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
-
-  
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
   
 /*Retirando margem para o contéudo ocupar 100% da tela*/
 body{
@@ -21,8 +18,7 @@ body * {
     align-items: center;
 }
 
-/*As configurações left-login e right-login correspondem as configurações,
- que permitem que a imagem (Adicionada posteriormente) fique ao lado do questionário*/
+/*As configurações left-login e right-login correspondem as configurações, que permitem que a imagem (Adicionada posteriormente) fique ao lado do questionário*/
 
 .left-login{
     width: 50vw;
@@ -82,7 +78,6 @@ body * {
     margin: 10px 0px;
 }
 
-
 .textfield > input{
     width: 100%;
     border: none;
@@ -99,7 +94,6 @@ body * {
 .textfield > label{
     color: #f0ffffde;
     margin-bottom: 10px;
-
 }
 
 .textfield > input::placeholder{
@@ -120,9 +114,7 @@ body * {
     letter-spacing: 3px;
     background: #2d81e2;
     cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #031a4652;
-    
-    
+    box-shadow: 0px 10px 40px -12px #031a4652; 
 }
 
 /*Configuração de Responsividade*/
@@ -136,29 +128,24 @@ body * {
 @media only screen and (max-widtg: 600px) {
     .main-login{
         flex-direction: column;
-
     }
     .left-login > h1{
         display: none;
-
     }
 
     .left-login{
         width: 100%;
         height: auto;
-
     }
     
     .right-login{
         width: 100%;
-        height: auto;
-        
+        height: auto;  
     }
 
     .left-login-image{
         width: 50vw;
     }
-
     .card-login{
         width: 90%;
     }
@@ -240,4 +227,3 @@ body * {
 .header img {
     width: 200px; /*Tamanho da imagem*/
 }
-
