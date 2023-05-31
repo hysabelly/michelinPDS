@@ -8,7 +8,7 @@
 <packaging>war</packaging>
 
 <name>Michellin</name>
-<description>Personalizar a experiência do usuário em sua seleção de restaurantes</description>
+<description>Personalizar a experiência do usuário em sua seleção de um local para sair, a partir de diversas questões sobre seu gosto alimentar naquele dia.</description>
 
   <build>
     <plugins>
