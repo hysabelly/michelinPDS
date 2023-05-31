@@ -1,5 +1,3 @@
-
-
 //Faz as trocas das palavaras para outro idioma //
 
 var arrLang = {
@@ -27,10 +25,9 @@ var arrLang = {
         'Politica': "Privacy Policy",
         'Sobre': "About Us",
         'Contato' : "Contact",
-        'pesquisar' : "Search",
-        
-         
+        'pesquisar' : "Search", 
     },
+    
     'pt' : {
         'inicio' : 'Inicio',
         'paravoce' : 'Para vocês',
@@ -56,11 +53,8 @@ var arrLang = {
         'Sobre': "Sobre Nós",
         'Contato' : "Contato",
         'pesquisar' : "Pesquisar",
-        
     }
   };
-
-
 
   $(function(){
   $('#year').change(function(){
@@ -71,7 +65,6 @@ var arrLang = {
       });
   });
 });
-
 
   // Função para obter o valor de um cookie pelo nome
   function getCookie(name) {
@@ -128,7 +121,3 @@ var arrLang = {
     var lang = $(this).val();
     setLanguage(lang);
   });
-  
-
-
-
