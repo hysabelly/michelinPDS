@@ -1,4 +1,3 @@
-
 //Configuração do primeiro carrossel
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
@@ -34,9 +33,7 @@ const newCarousel6 = document.querySelector('.Slide7 .carousel');
 const newArrowIcons6 = document.querySelectorAll('.Slide7 i');
 const newFirstImg6 = document.querySelector('.Slide7 img');
 
-
 let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
-
 
 //Configiração do primeiro carrossel
     const showHideIcons = () => {
@@ -88,8 +85,6 @@ let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, position
     newArrowIcons6[1].style.display = newCarousel6.scrollLeft == newScrollWidth ? 'none' : 'block';
   };
 
-
-
 //Configuração do primeiro carrossel
         arrowIcons.forEach(icon => {
         icon.addEventListener("click", () => {
@@ -100,7 +95,6 @@ let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, position
     });
 });
 
-
 //Configuração do segundo carrossel
       newArrowIcons.forEach(icon => {
       icon.addEventListener('click', () => {
@@ -109,7 +103,6 @@ let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, position
       setTimeout(() => showHideNewIcons(), 60);
     });
   });
-
 
 //Configuração do terceiro carrossel
         newArrowIcons2.forEach(icon => {
@@ -155,7 +148,6 @@ newArrowIcons6.forEach(icon => {
   setTimeout(() => showHideNewIcons6(), 60);
 })
 });
-
 
 const autoSlide = () => {
     // if there is no image left to scroll then return from here
@@ -233,7 +225,6 @@ images.forEach(image => {
     const horario = image.dataset.horario;
     const refeição = image.dataset.refeição;
     const preços = image.dataset.preços;
-    
 
     // Preenche a janela pop-up com os dados da imagem
     popupNome.textContent = nome;
@@ -242,7 +233,6 @@ images.forEach(image => {
     popupHorario.textContent = horario;
     popuprefeição.textContent = refeição;
     popuppreços.textContent = preços;
-   
 
     // Exibe a janela pop-up
     popup.style.display = 'block';
@@ -254,8 +244,3 @@ var closeButton = document.getElementById("close-button");
 closeButton.addEventListener("click", function() {
   popup.style.display = "none";
 });
-
-
-
-
-
