@@ -1,37 +1,44 @@
 //Configuração do primeiro carrossel
-const carousel = document.querySelector(".carousel"),
-firstImg = carousel.querySelectorAll("img")[0],
+const carousel = document.querySelector(".RefeiçõesRápidas .carousel"),
+firstImg = carousel.querySelectorAll(".RefeiçõesRápidas img")[0],
 arrowIcons = document.querySelectorAll(".wrapper i");
 
 //Configuração do segundo carrossel
-const newCarousel = document.querySelector('.Tradicional .carousel');
-const newArrowIcons = document.querySelectorAll('.Tradicional i');
-const newFirstImg = document.querySelector('.Tradicional img');
+const newCarousel = document.querySelector('.Alta .carousel');
+const newArrowIcons = document.querySelectorAll('.Alta i');
+const newFirstImg = document.querySelector('.Alta img');
 
 //Configuração do terceiro carrossel
-const newCarousel2 = document.querySelector('.Comida-Regional .carousel');
-const newArrowIcons2 = document.querySelectorAll('.Comida-Regional i');
-const newFirstImg2 = document.querySelector('.Comida-Regional img');
+const newCarousel2 = document.querySelector('.Veganos .carousel');
+const newArrowIcons2 = document.querySelectorAll('.Veganos i');
+const newFirstImg2 = document.querySelector('.Veganos img');
 
 //Configuração do quarto carrossel
-const newCarousel3 = document.querySelector('.Cafeteria .carousel');
-const newArrowIcons3 = document.querySelectorAll('.Cafeteria i');
-const newFirstImg3 = document.querySelector('.Cafeteria img');
+const newCarousel3 = document.querySelector('.Frutos-do-mar .carousel');
+const newArrowIcons3 = document.querySelectorAll('.Frutos-do-mar i');
+const newFirstImg3 = document.querySelector('.Frutos-do-mar img');
 
 //Configuração do quinto carrossel
-const newCarousel4 = document.querySelector('.Slide5 .carousel');
-const newArrowIcons4 = document.querySelectorAll('.Slide5 i');
-const newFirstImg4 = document.querySelector('.Slide5 img');
+const newCarousel4 = document.querySelector('.Hamburguerias .carousel');
+const newArrowIcons4 = document.querySelectorAll('.Hamburguerias i');
+const newFirstImg4 = document.querySelector('.Hamburguerias img');
 
 //Configuração do sexto carrossel
-const newCarousel5 = document.querySelector('.Slide6 .carousel');
-const newArrowIcons5 = document.querySelectorAll('.Slide6 i');
-const newFirstImg5 = document.querySelector('.Slide6 img');
+const newCarousel5 = document.querySelector('.Outras-Culinárias .carousel');
+const newArrowIcons5 = document.querySelectorAll('.Outras-Culinárias i');
+const newFirstImg5 = document.querySelector('.Outras-Culinárias img');
 
 //Configuração do sétimo carrossel
-const newCarousel6 = document.querySelector('.Slide7 .carousel');
-const newArrowIcons6 = document.querySelectorAll('.Slide7 i');
-const newFirstImg6 = document.querySelector('.Slide7 img');
+const newCarousel6 = document.querySelector('.Bares-e-Populares .carousel');
+const newArrowIcons6 = document.querySelectorAll('.Bares-e-Populares i');
+const newFirstImg6 = document.querySelector('.Bares-e-Populares img');
+
+//Configuração do oitavo carrossel
+const newCarousel7 = document.querySelector('.Cafeterias .carousel');
+const newArrowIcons7 = document.querySelectorAll('.Cafeterias i');
+const newFirstImg7 = document.querySelector('.Cafeterias img');
+
+
 
 let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
 
@@ -84,6 +91,14 @@ let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, position
     newArrowIcons6[0].style.display = newCarousel6.scrollLeft == 0 ? 'none' : 'block';
     newArrowIcons6[1].style.display = newCarousel6.scrollLeft == newScrollWidth ? 'none' : 'block';
   };
+
+  //Configuração do oitavo carrossel
+  const showHideNewIcons7 = () => {
+    let newScrollWidth = newCarousel7.scrollWidth - newCarousel7.clientWidth;
+    newArrowIcons7[0].style.display = newCarousel7.scrollLeft == 0 ? 'none' : 'block';
+    newArrowIcons7[1].style.display = newCarousel7.scrollLeft == newScrollWidth ? 'none' : 'block';
+  };
+
 
 //Configuração do primeiro carrossel
         arrowIcons.forEach(icon => {
@@ -146,6 +161,15 @@ newArrowIcons6.forEach(icon => {
   let newFirstImgWidth = newFirstImg6.clientWidth + 14;
   newCarousel6.scrollLeft += icon.id == 'new-left6' ? -newFirstImgWidth : newFirstImgWidth;
   setTimeout(() => showHideNewIcons6(), 60);
+})
+});
+
+//Configuração do oitavo carrossel
+newArrowIcons7.forEach(icon => {
+  icon.addEventListener('click', () => {
+  let newFirstImgWidth = newFirstImg6.clientWidth + 14;
+  newCarousel7.scrollLeft += icon.id == 'new-left7' ? -newFirstImgWidth : newFirstImgWidth;
+  setTimeout(() => showHideNewIcons7(), 60);
 })
 });
 
@@ -237,11 +261,9 @@ images.forEach(image => {
     // Exibe a janela pop-up
     popup.style.display = 'block';
   });
-});
-
+})
 /* Fecha a janela ao clicar no X */
 var closeButton = document.getElementById("close-button");
 closeButton.addEventListener("click", function() {
   popup.style.display = "none";
 });
-
