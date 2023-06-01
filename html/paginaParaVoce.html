@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -88,29 +88,69 @@
 
 <!-- codigo da pagina -->
 
-<h1>Por favor responda este questionário:</h1>
+<h1>Olá, Akemi Alice!</h1>
+<p>Clique na opção desejada para encontrar seu restaurante ideal hoje!</p>
+<br>
 
-  <div class="form-group" id="pergunta-1">
-    <h2>Qual é o limite de preço?</h2>
-    <div class="opcoes-valor">
-      <input type="radio" id="valor-100" name="valor" value="100" onclick="mostrarProximaPergunta('pergunta-2')">
-      <label for="valor-100">Até 100</label><br>
-      <input type="radio" id="valor-200" name="valor" value="200" onclick="mostrarProximaPergunta('pergunta-2')">
-      <label for="valor-200">Até 200</label><br>
-      <input type="radio" id="valor-300" name="valor" value="300" onclick="mostrarProximaPergunta('pergunta-2')">
-      <label for="valor-300">Até 300</label><br>
+<!--pergunta 1-->
+<div class="form-group" id="pergunta-1">
+  <h2>Até qual valor você pretende gastar hoje?</h2>
+  <div class="opcoes-valor">
+    <button id="valor-100" onclick="mostrarProximaPergunta('pergunta-2')">
+      <div class="imagem-container">
+        <img src="/img/teste.webp" height="200" width="300" />
+      </div>
+      <span class="legenda">$ 100</span>
+    </button>
+
+    <button id="valor-200" onclick="mostrarProximaPergunta('pergunta-2')">
+      <div class="imagem-container">
+        <img src="/img/teste.webp" height="200" width="300" />
+      </div>
+      <span class="legenda">$ 200</span>
+    </button>
+
+    <button id="valor-300" onclick="mostrarProximaPergunta('pergunta-2')">
+      <div class="imagem-container">
+        <img src="/img/teste.webp" height="200" width="300" />
+      </div>
+      <span class="legenda">$ 300</span>
+    </button>
+  </div>
+</div>
+
+<!-- pergunta 2-->
+
+
+<div class="form-group" id="pergunta-2" style="display: none;">
+ <div class="opcoes-1">
+  <div class="opcoes1-2" >
+  <button id="rapida" onclick="mostrarProximaPergunta('pergunta-3')">
+    <div class="imagem-container">
+      <img src="/img/teste.webp" height="200" width="300" />
     </div>
-  </div>
+    <span class="legenda">Rápida</span>
+  </button>
+</div>
 
-  <div class="form-group" id="pergunta-2" style="display: none;">
-    <label for="pergunta-2">Você deseja uma refeição rápida, elaborada ou de alta gastronomia?</label><br>
-    <input type="radio" id="rapida" name="refeicao" value="rapida" onclick="mostrarPergunta('pergunta-3')">
-    <label for="rapida">Rápida</label><br>
-    <input type="radio" id="elaborada" name="refeicao" value="elaborada" onclick="mostrarPergunta('pergunta-4')">
-    <label for="elaborada">Mais Elaborada</label><br>
-    <input type="radio" id="altaGastronomia" name="refeicao" value="altaGastronomia" onclick="mostrarPergunta('pergunta-5')">
-    <label for="elaborada">Alta Gastronomia</label><br>
-  </div>
+  <button id="elaborada" onclick="mostrarProximaPergunta('pergunta-4')">
+    <div class="imagem-container">
+      <img src="/img/teste.webp" height="200" width="300" />
+    </div>
+    <span class="legenda">Mais Elaborada</span>
+  </button>
+
+
+  <button id="altaGastronomia" onclick="mostrarProximaPergunta('pergunta-5')">
+    <div class="imagem-container">
+      <img src="/img/teste.webp" height="200" width="300" />
+    </div>
+    <span class="legenda">Alta Gastronomia</span>
+  </button>
+ </div>
+</div>
+
+<!--resposta-->
 
   <div class="form-group" id="pergunta-3" style="display: none;">
     <p>Fast Food ou Populares</p>
@@ -120,115 +160,133 @@
     <p>Alta Gastronomia</p>
   </div>
 
+  <!-- pergunta 3-->
+
   <div class="form-group" id="pergunta-4" style="display: none;">
     <label for="pergunta-4">Você deseja uma refeição mais casual ou mais diferente?</label><br>
-    <input type="radio" id="casual" name="refeicao2" value="casual" onclick="mostrarPergunta('pergunta-6')">
-    <label for="casual">Casual</label><br>
-    <input type="radio" id="diferente" name="refeicao2" value="diferente" onclick="mostrarPergunta('pergunta-7')">
-    <label for="diferente">Mais Diferente</label><br>
+    <div class="categoria">
+      <div class="categoria-1">
+    <button id="casual" onclick="mostrarProximaPergunta('pergunta-6')">
+      <div class="imagem-container">
+        <img src="/img/teste.webp" height="200" width="300" />
+      </div>
+      <span class="legenda">Casual</span>
+    </button>
   </div>
+    <button id="diferente" onclick="mostrarProximaPergunta('pergunta-7')">
+      <div class="imagem-container">
+        <img src="/img/teste.webp" height="200" width="300" />
+      </div>
+      <span class="legenda">Mais Diferente</span>
+    </button>
+
+  </div>
+</div>
+
+<!--resposta -->
 
   <div class="form-group" id="pergunta-7" style="display: none;">
     <p>Temático, Outras Culinárias ou Regionais</p>
   </div>
 
+<!--pergunta 4-->
   <div class="form-group" id="pergunta-6" style="display: none;">
     <label for="pergunta-6">Qual tipo de culinária desejada?</label><br>
-    <input type="radio" id="doce" name="culinaria" value="doce" onclick="mostrarPergunta('pergunta-7')">
+    <input type="radio" id="doce" name="culinaria" value="doce" onclick="mostrarPergunta('pergunta-8')">
     <label for="doce">Doce</label><br>
-    <input type="radio" id="salgado" name="culinaria" value="salgado" onclick="mostrarPergunta('pergunta-8')">
+    <input type="radio" id="salgado" name="culinaria" value="salgado" onclick="mostrarPergunta('pergunta-9')">
     <label for="salgado">Salgado</label><br>
-    <input type="radio" id="Cafeterias" name="culinaria" value="Cafeterias" onclick="mostrarPergunta('pergunta-9')">
+    <input type="radio" id="Cafeterias" name="culinaria" value="Cafeterias" onclick="mostrarPergunta('pergunta-10')">
     <label for="salgado">Cafeterias</label><br>
   </div>
 
-  <div class="form-group" id="pergunta-7" style="display: none;">
-    <label for="pergunta-7">Quente, fria ou massas?</label><br>
-    <input type="radio" id="quente" name="doce-opcao" value="quente" onclick="mostrarPergunta('pergunta-10')">
+  <div class="form-group" id="pergunta-8" style="display: none;">
+    <label for="pergunta-8">Quente, fria ou massas?</label><br>
+    <input type="radio" id="quente" name="doce-opcao" value="quente" onclick="mostrarPergunta('pergunta-11')">
     <label for="quente">Quente</label><br>
-    <input type="radio" id="fria" name="doce-opcao" value="fria" onclick="mostrarPergunta('pergunta-11')">
+    <input type="radio" id="fria" name="doce-opcao" value="fria" onclick="mostrarPergunta('pergunta-12')">
     <label for="fria">Fria</label><br>
-    <input type="radio" id="massas" name="doce-opcao" value="massas" onclick="mostrarPergunta('pergunta-12')">
+    <input type="radio" id="massas" name="doce-opcao" value="massas" onclick="mostrarPergunta('pergunta-13')">
     <label for="massas">Massas</label><br>
   </div>
 
-  <div class="form-group" id="pergunta-10" style="display: none;">
+  <div class="form-group" id="pergunta-11" style="display: none;">
     <p>Sobremesa quente</p>
   </div>
 
-  <div class="form-group" id="pergunta-11" style="display: none;">
+  <div class="form-group" id="pergunta-12" style="display: none;">
     <p>Sobremesa fria</p>
   </div>
 
-  <div class="form-group" id="pergunta-12" style="display: none;">
+  <div class="form-group" id="pergunta-13" style="display: none;">
     <p>Sobremesa com massa</p>
   </div>
 
-  <div class="form-group" id="pergunta-9" style="display: none;">
+  <div class="form-group" id="pergunta-10" style="display: none;">
     <p>Cafeterias</p>
   </div>
 
-  <div class="form-group" id="pergunta-8" style="display: none;">
-    <label for="pergunta-8">Gostaria de comer massas?</label><br>
-    <input type="radio" id="sim-massas" name="massas-salgado" value="sim" onclick="mostrarPergunta('pergunta-13')">
+  <div class="form-group" id="pergunta-9" style="display: none;">
+    <label for="pergunta-9">Gostaria de comer massas?</label><br>
+    <input type="radio" id="sim-massas" name="massas-salgado" value="sim" onclick="mostrarPergunta('pergunta-14')">
     <label for="sim-massas">Sim</label><br>
-    <input type="radio" id="nao-massas" name="massas-salgado" value="nao" onclick="mostrarPergunta('pergunta-14')">
+    <input type="radio" id="nao-massas" name="massas-salgado" value="nao" onclick="mostrarPergunta('pergunta-15')">
     <label for="nao-massas">Não</label><br>
   </div>
 
-  <div class="form-group" id="pergunta-13" style="display: none;">
+  <div class="form-group" id="pergunta-14" style="display: none;">
     <p>Espaguete, lasanha, pizza, nhoque</p>
   </div>
 
-  <div class="form-group" id="pergunta-14" style="display: none;">
-    <label for="pergunta-14">Gostaria de comer hamburgueres?</label><br>
-    <input type="radio" id="sim-hamburgueres" name="hamburgueres-salgado" value="sim" onclick="mostrarPergunta('pergunta-15')">
+  <div class="form-group" id="pergunta-15" style="display: none;">
+    <label for="pergunta-15">Gostaria de comer hamburgueres?</label><br>
+    <input type="radio" id="sim-hamburgueres" name="hamburgueres-salgado" value="sim" onclick="mostrarPergunta('pergunta-16')">
     <label for="sim-hamburgueres">Sim</label><br>
-    <input type="radio" id="nao-hamburgueres" name="hamburgueres-salgado" value="nao" onclick="mostrarPergunta('pergunta-16')">
+    <input type="radio" id="nao-hamburgueres" name="hamburgueres-salgado" value="nao" onclick="mostrarPergunta('pergunta-17')">
     <label for="nao-hamburgueres">Não</label><br>
   </div>
 
-  <div class="form-group" id="pergunta-15" style="display: none;">
+  <div class="form-group" id="pergunta-16" style="display: none;">
     <p>Hamburguerias</p>
   </div>
 
-  <div class="form-group" id="pergunta-16" style="display: none;">
-    <label for="pergunta-16">Gostaria de comer carne vermelha?</label><br>
-    <input type="radio" id="sim-carne" name="carne-vermelha" value="sim" onclick="mostrarPergunta('pergunta-17')">
+  <div class="form-group" id="pergunta-17" style="display: none;">
+    <label for="pergunta-17">Gostaria de comer carne vermelha?</label><br>
+    <input type="radio" id="sim-carne" name="carne-vermelha" value="sim" onclick="mostrarPergunta('pergunta-18')">
     <label for="sim-carne">Sim</label><br>
-    <input type="radio" id="nao-carne" name="carne-vermelha" value="nao" onclick="mostrarPergunta('pergunta-18')">
+    <input type="radio" id="nao-carne" name="carne-vermelha" value="nao" onclick="mostrarPergunta('pergunta-19')">
     <label for="nao-carne">Não</label><br>
   </div>
 
-  <div class="form-group" id="pergunta-17" style="display: none;">
+  <div class="form-group" id="pergunta-18" style="display: none;">
     <p>Restaurantes em geral e churrascarias</p>
   </div>
 
-  <div class="form-group" id="pergunta-18" style="display: none;">
-    <label for="pergunta-18">Gostaria de comer frutos do mar, como peixe?</label><br>
-    <input type="radio" id="sim-peixe" name="peixe" value="sim" onclick="mostrarPergunta('pergunta-19')">
+  <div class="form-group" id="pergunta-19" style="display: none;">
+    <label for="pergunta-19">Gostaria de comer frutos do mar, como peixe?</label><br>
+    <input type="radio" id="sim-peixe" name="peixe" value="sim" onclick="mostrarPergunta('pergunta-20')">
     <label for="sim-peixe">Sim</label><br>
-    <input type="radio" id="nao-peixe" name="peixe" value="nao" onclick="mostrarPergunta('pergunta-20')">
+    <input type="radio" id="nao-peixe" name="peixe" value="nao" onclick="mostrarPergunta('pergunta-21')">
     <label for="nao-peixe">Não</label><br>
   </div>
 
-  <div class="form-group" id="pergunta-19" style="display: none;">
+  <div class="form-group" id="pergunta-20" style="display: none;">
     <p>comida oriental e frutos do mar</p>
   </div>
 
-  <div class="form-group" id="pergunta-20" style="display: none;">
-    <label for="pergunta-20">Gostaria de uma alimentação sem carnes?</label><br>
-    <input type="radio" id="sim-sem-carnes" name="sem-carnes" value="sim" onclick="mostrarPergunta('pergunta-21')">
+  <div class="form-group" id="pergunta-21" style="display: none;">
+    <label for="pergunta-21">Gostaria de uma alimentação sem carnes?</label><br>
+    <input type="radio" id="sim-sem-carnes" name="sem-carnes" value="sim" onclick="mostrarPergunta('pergunta-22')">
     <label for="sim-sem-carnes">Sim</label><br>
-    <input type="radio" id="nao-sem-carnes" name="sem-carnes" value="nao" onclick="mostrarPergunta('pergunta-22')">
+    <input type="radio" id="nao-sem-carnes" name="sem-carnes" value="nao" onclick="mostrarPergunta('pergunta-23')">
     <label for="nao-sem-carnes">Não</label><br>
   </div>
 
-  <div class="form-group" id="pergunta-21" style="display: none;">
+  <div class="form-group" id="pergunta-22" style="display: none;">
     <p>Restaurantes Veganos e Vegetarianos</p>
   </div>
 
-  <div class="form-group" id="pergunta-22" style="display: none;">
+  <div class="form-group" id="pergunta-23" style="display: none;">
     <p>Resposta: faça novamente</p>
   </div>
   

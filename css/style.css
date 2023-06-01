@@ -253,7 +253,7 @@ input:valid, textarea:valid {
 }
 
 button {
-  :root {
+  : root {
     --cor-primaria-success: rgb(75, 200, 138);
     --cor-hover-success: rgb(116, 158, 137);
     --cor-secundaria-success: rgb(27, 66, 50);
@@ -266,7 +266,7 @@ button {
     --cor-hover-danger: rgb(158, 116, 116);
     --cor-secundaria-danger: rgb(58, 22, 22);
 }
-}
+ }
 
 .btn {
     border: none;
@@ -333,3 +333,105 @@ button {
   margin-right: 50px;    
   list-style-type: none;
 }
+
+/* pagina Para Você */
+
+/* pergunta 1*/
+
+.opcoes-valor {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.imagem-container {
+  opacity: 0.60;
+}
+
+.opcoes-valor button {
+  position: relative;
+}
+
+.opcoes-valor .legenda {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  top: 35%;
+  transform: translateX(-50%);
+  color: black;
+  padding: 5px 10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* pergunta 2*/
+
+.opcoes-1 .legenda {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%);
+  color: black;
+  padding: 5px 10px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.opcoes1-2 .legenda {
+  position: absolute;
+  bottom: 10px;
+  left: 100%;
+  top: 35%;
+  transform: translateX(-50%);
+  color: black;
+  padding: 5px 10px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.opcoes-1 button{
+  position: relative;
+} 
+
+.opcoes-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* pergunta 3*/
+
+.categoria .legenda {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%);
+  color: black;
+  padding: 5px 10px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.categoria-1 .legenda {
+  position: absolute;
+  bottom: 10px;
+  left: 100%;
+  top: 35%;
+  transform: translateX(-50%);
+  color: black;
+  padding: 5px 10px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.categoria button{
+  position: relative;
+}
+
+.categoria {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* pergunta 4*/
