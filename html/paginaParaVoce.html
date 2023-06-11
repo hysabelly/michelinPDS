@@ -94,7 +94,7 @@
 
 <!--pergunta 1-->
 <div class="form-group" id="pergunta-1">
-  <h2>Até qual valor você pretende gastar hoje?</h2>
+  <label for="pergunta-1">Até qual valor você pretende gastar hoje?</label><br>
   <div class="opcoes-valor">
     <button id="valor-100" onclick="mostrarProximaPergunta('pergunta-2')">
       <div class="imagem-container">
@@ -123,15 +123,17 @@
 
 
 <div class="form-group" id="pergunta-2" style="display: none;">
+  <label for="pergunta-4">Você deseja uma refeição rápida ou mais elaborada?</label><br>
  <div class="opcoes-1">
-  <div class="opcoes1-2" >
+
+  
   <button id="rapida" onclick="mostrarProximaPergunta('pergunta-3')">
     <div class="imagem-container">
       <img src="/img/teste.webp" height="200" width="300" />
     </div>
     <span class="legenda">Rápida</span>
   </button>
-</div>
+
 
   <button id="elaborada" onclick="mostrarProximaPergunta('pergunta-4')">
     <div class="imagem-container">
@@ -147,32 +149,32 @@
     </div>
     <span class="legenda">Alta Gastronomia</span>
   </button>
+  
  </div>
 </div>
 
 <!--resposta-->
 
-  <div class="form-group" id="pergunta-3" style="display: none;">
-    <p>Fast Food ou Populares</p>
-  </div>
+<div class="form-group" id="pergunta-3" style="display: none;">
+  <p>Fast Food ou Populares</p>
+</div>
 
-  <div class="form-group" id="pergunta-5" style="display: none;">
-    <p>Alta Gastronomia</p>
-  </div>
+<div class="form-group" id="pergunta-5" style="display: none;">
+  <p>Alta Gastronomia</p>
+</div>
 
   <!-- pergunta 3-->
 
   <div class="form-group" id="pergunta-4" style="display: none;">
     <label for="pergunta-4">Você deseja uma refeição mais casual ou mais diferente?</label><br>
-    <div class="categoria">
-      <div class="categoria-1">
+    <div class="opcoes-1">
+     
     <button id="casual" onclick="mostrarProximaPergunta('pergunta-6')">
       <div class="imagem-container">
         <img src="/img/teste.webp" height="200" width="300" />
       </div>
       <span class="legenda">Casual</span>
     </button>
-  </div>
     <button id="diferente" onclick="mostrarProximaPergunta('pergunta-7')">
       <div class="imagem-container">
         <img src="/img/teste.webp" height="200" width="300" />
@@ -190,107 +192,167 @@
   </div>
 
 <!--pergunta 4-->
+
   <div class="form-group" id="pergunta-6" style="display: none;">
-    <label for="pergunta-6">Qual tipo de culinária desejada?</label><br>
-    <input type="radio" id="doce" name="culinaria" value="doce" onclick="mostrarPergunta('pergunta-8')">
-    <label for="doce">Doce</label><br>
-    <input type="radio" id="salgado" name="culinaria" value="salgado" onclick="mostrarPergunta('pergunta-9')">
-    <label for="salgado">Salgado</label><br>
-    <input type="radio" id="Cafeterias" name="culinaria" value="Cafeterias" onclick="mostrarPergunta('pergunta-10')">
-    <label for="salgado">Cafeterias</label><br>
-  </div>
+    <label for="pergunta-6">Qual você deseja?</label><br>
 
-  <div class="form-group" id="pergunta-8" style="display: none;">
-    <label for="pergunta-8">Quente, fria ou massas?</label><br>
-    <input type="radio" id="quente" name="doce-opcao" value="quente" onclick="mostrarPergunta('pergunta-11')">
-    <label for="quente">Quente</label><br>
-    <input type="radio" id="fria" name="doce-opcao" value="fria" onclick="mostrarPergunta('pergunta-12')">
-    <label for="fria">Fria</label><br>
-    <input type="radio" id="massas" name="doce-opcao" value="massas" onclick="mostrarPergunta('pergunta-13')">
-    <label for="massas">Massas</label><br>
-  </div>
-
-  <div class="form-group" id="pergunta-11" style="display: none;">
-    <p>Sobremesa quente</p>
-  </div>
-
-  <div class="form-group" id="pergunta-12" style="display: none;">
-    <p>Sobremesa fria</p>
-  </div>
-
-  <div class="form-group" id="pergunta-13" style="display: none;">
-    <p>Sobremesa com massa</p>
-  </div>
-
-  <div class="form-group" id="pergunta-10" style="display: none;">
-    <p>Cafeterias</p>
-  </div>
-
-  <div class="form-group" id="pergunta-9" style="display: none;">
-    <label for="pergunta-9">Gostaria de comer massas?</label><br>
-    <input type="radio" id="sim-massas" name="massas-salgado" value="sim" onclick="mostrarPergunta('pergunta-14')">
-    <label for="sim-massas">Sim</label><br>
-    <input type="radio" id="nao-massas" name="massas-salgado" value="nao" onclick="mostrarPergunta('pergunta-15')">
-    <label for="nao-massas">Não</label><br>
-  </div>
-
-  <div class="form-group" id="pergunta-14" style="display: none;">
-    <p>Espaguete, lasanha, pizza, nhoque</p>
-  </div>
-
-  <div class="form-group" id="pergunta-15" style="display: none;">
-    <label for="pergunta-15">Gostaria de comer hamburgueres?</label><br>
-    <input type="radio" id="sim-hamburgueres" name="hamburgueres-salgado" value="sim" onclick="mostrarPergunta('pergunta-16')">
-    <label for="sim-hamburgueres">Sim</label><br>
-    <input type="radio" id="nao-hamburgueres" name="hamburgueres-salgado" value="nao" onclick="mostrarPergunta('pergunta-17')">
-    <label for="nao-hamburgueres">Não</label><br>
-  </div>
-
-  <div class="form-group" id="pergunta-16" style="display: none;">
-    <p>Hamburguerias</p>
-  </div>
-
-  <div class="form-group" id="pergunta-17" style="display: none;">
-    <label for="pergunta-17">Gostaria de comer carne vermelha?</label><br>
-    <input type="radio" id="sim-carne" name="carne-vermelha" value="sim" onclick="mostrarPergunta('pergunta-18')">
-    <label for="sim-carne">Sim</label><br>
-    <input type="radio" id="nao-carne" name="carne-vermelha" value="nao" onclick="mostrarPergunta('pergunta-19')">
-    <label for="nao-carne">Não</label><br>
-  </div>
-
-  <div class="form-group" id="pergunta-18" style="display: none;">
-    <p>Restaurantes em geral e churrascarias</p>
-  </div>
-
-  <div class="form-group" id="pergunta-19" style="display: none;">
-    <label for="pergunta-19">Gostaria de comer frutos do mar, como peixe?</label><br>
-    <input type="radio" id="sim-peixe" name="peixe" value="sim" onclick="mostrarPergunta('pergunta-20')">
-    <label for="sim-peixe">Sim</label><br>
-    <input type="radio" id="nao-peixe" name="peixe" value="nao" onclick="mostrarPergunta('pergunta-21')">
-    <label for="nao-peixe">Não</label><br>
-  </div>
-
-  <div class="form-group" id="pergunta-20" style="display: none;">
-    <p>comida oriental e frutos do mar</p>
-  </div>
-
-  <div class="form-group" id="pergunta-21" style="display: none;">
-    <label for="pergunta-21">Gostaria de uma alimentação sem carnes?</label><br>
-    <input type="radio" id="sim-sem-carnes" name="sem-carnes" value="sim" onclick="mostrarPergunta('pergunta-22')">
-    <label for="sim-sem-carnes">Sim</label><br>
-    <input type="radio" id="nao-sem-carnes" name="sem-carnes" value="nao" onclick="mostrarPergunta('pergunta-23')">
-    <label for="nao-sem-carnes">Não</label><br>
-  </div>
-
-  <div class="form-group" id="pergunta-22" style="display: none;">
-    <p>Restaurantes Veganos e Vegetarianos</p>
-  </div>
-
-  <div class="form-group" id="pergunta-23" style="display: none;">
-    <p>Resposta: faça novamente</p>
-  </div>
+    <div class="opcoes-1">
+      <button id="doce" onclick="mostrarProximaPergunta('pergunta-8')">
+        <div class="imagem-container">
+          <img src="/img/teste.webp" height="200" width="300" />
+        </div>
+        <span class="legenda">Hamburguerias</span>
+      </button>
+      <button id="salgado" onclick="mostrarProximaPergunta('pergunta-9')">
+        <div class="imagem-container">
+          <img src="/img/teste.webp" height="200" width="300" />
+        </div>
+        <span class="legenda">Restaurantes</span>
+      </button>
+      <button id="Cafeterias" onclick="mostrarProximaPergunta('pergunta-10')">
+        <div class="imagem-container">
+          <img src="/img/teste.webp" height="200" width="300" />
+        </div>
+        <span class="legenda">Cafeterias</span>
+      </button>
   
-</form>
+    </div>
+  </div>
+    
+<!--resposta -->
+
+<div class="form-group" id="pergunta-10" style="display: none;">
+  <p>Cafeterias</p>
+</div>
+
+<div class="form-group" id="pergunta-8" style="display: none;">
+  <p>Hamburguerias</p>
+</div>
+
+<!--pergunta 5-->
+<div class="form-group" id="pergunta-9" style="display: none;">
+  <label for="pergunta-9">Gostaria de comer doces?</label><br>
+  <div class="opcoes-1">
+  <button id="sim" onclick="mostrarProximaPergunta('pergunta-11')">
+    <div class="imagem-container">
+      <img src="/img/teste.webp" height="200" width="300" />
+    </div>
+    <span class="legenda">Sim</span>
+  </button>
+  <button id="nao" onclick="mostrarProximaPergunta('pergunta-12')">
+    <div class="imagem-container">
+      <img src="/img/teste.webp" height="200" width="300" />
+    </div>
+    <span class="legenda">Não</span>
+  </button>  
+</div>
+</div>
+  <!--resposta -->
+  <div class="form-group" id="pergunta-11" style="display: none;">
+    <p>Doce</p>
+  </div>
+
+  <!--pergunta 6-->
+  <div class="form-group" id="pergunta-12" style="display: none;">
+    <label for="pergunta-12">Gostaria de comer massas?</label><br>
+    <div class="opcoes-1">
+    <button id="sim" onclick="mostrarProximaPergunta('pergunta-13')">
+      <div class="imagem-container">
+        <img src="/img/teste.webp" height="200" width="300" />
+      </div>
+      <span class="legenda">Sim</span>
+    </button>
+    <button id="nao" onclick="mostrarProximaPergunta('pergunta-14')">
+      <div class="imagem-container">
+        <img src="/img/teste.webp" height="200" width="300" />
+      </div>
+      <span class="legenda">Não</span>
+    </button>  
+  </div>
+  </div>
+    <!--resposta -->
+    <div class="form-group" id="pergunta-13" style="display: none;">
+      <p>Espaguete, lasanha, pizza, nhoque</p>
+    </div>
+  </div>
+
+<!--pergunta 7-->
+
+<div class="form-group" id="pergunta-14" style="display: none;">
+  <label for="pergunta-14">Gostaria de comer carne?</label><br>
+  <div class="opcoes-1">
+    <button id="sim" onclick="mostrarProximaPergunta('pergunta-15')">
+      <div class="imagem-container">
+        <img src="/img/teste.webp" height="200" width="300" />
+      </div>
+      <span class="legenda">Sim</span>
+    </button>
+    <button id="nao" onclick="mostrarProximaPergunta('pergunta-16')">
+      <div class="imagem-container">
+        <img src="/img/teste.webp" height="200" width="300" />
+      </div>
+      <span class="legenda">Não</span>
+    </button>  
+  </div>
+</div>
+
+<!--resposta -->
+<div class="form-group" id="pergunta-15" style="display: none;">
+  <p>Restaurantes com carne</p>
+</div>
+
+<!--pergunta 8-->
+<div class="form-group" id="pergunta-16" style="display: none;">
+  <label for="pergunta-16">Gostaria de comer frutos do mar, como peixe?</label><br>
+  <div class="opcoes-1">
+    <button id="sim" onclick="mostrarProximaPergunta('pergunta-17')">
+      <div class="imagem-container">
+        <img src="/img/teste.webp" height="200" width="300" />
+      </div>
+      <span class="legenda">Sim</span>
+    </button>
+    <button id="nao" onclick="mostrarProximaPergunta('pergunta-18')">
+      <div class="imagem-container">
+        <img src="/img/teste.webp" height="200" width="300" />
+      </div>
+      <span class="legenda">Não</span>
+    </button>  
+  </div>
+</div>
+
+<!--resposta -->
+<div class="form-group" id="pergunta-17" style="display: none;">
+  <p>Frutos do Mar e comida oriental</p>
+</div>
+
+<!--pergunta 9-->
+<div class="form-group" id="pergunta-18" style="display: none;">
+  <label for="pergunta-18">Gostaria de uma alimentação sem carnes?</label><br>
+  <div class="opcoes-1">
+    <button id="sim" onclick="mostrarProximaPergunta('pergunta-19')">
+      <div class="imagem-container">
+        <img src="/img/teste.webp" height="200" width="300" />
+      </div>
+      <span class="legenda">Sim</span>
+    </button>
+    <button id="nao" onclick="mostrarProximaPergunta('pergunta-20')">
+      <div class="imagem-container">
+        <img src="/img/teste.webp" height="200" width="300" />
+      </div>
+      <span class="legenda">Não</span>
+    </button>  
+  </div>
+</div>
+
+<!--resposta -->
+<div class="form-group" id="pergunta-19" style="display: none;">
+  <p>Restaurantes Veganos e Vegetarianos</p>
+</div>
+
+<!--resposta sem info -->
+<div class="form-group" id="pergunta-20" style="display: none;">
+  <img src="/img/gif.gif" alt="GIF" />
+</div>
 
 <script src="/js/paraVoce.js"></script>
 </body>
