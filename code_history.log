@@ -1,0 +1,835 @@
+user:hysabelly
+1677594154
+:000000 100644 0000000 7f1825b A	README.md
+
+user:Med
+1682147876
+:000000 100644 0000000 3d58824 A	Favoritos.html
+:000000 100644 0000000 1614642 A	Home.html
+:000000 100644 0000000 fcb53b7 A	"ParaVoc\303\252s.html"
+:000000 100644 0000000 c0d1757 A	imagens/Logo.png
+:000000 100644 0000000 c8dfb5f A	style.css
+
+user:caua-pereira-santos
+1682148322
+:000000 100644 0000000 fea78e5 A	Server.java
+:000000 100644 0000000 0ef3bb3 A	criar_conta.html
+:000000 100644 0000000 9b7e122 A	login.css
+:000000 100644 0000000 bf424ce A	login.html
+
+user:GUSTAVOCHAVES4
+1682182267
+:100644 000000 3d58824 0000000 D	Favoritos.html
+:100644 000000 1614642 0000000 D	Home.html
+:100644 000000 fcb53b7 0000000 D	"ParaVoc\303\252s.html"
+:100644 000000 fea78e5 0000000 D	Server.java
+:100644 000000 0ef3bb3 0000000 D	criar_conta.html
+:000000 100644 0000000 f592c6d A	css/cabecalho.css
+:000000 100644 0000000 eb9f310 A	css/login.css
+:000000 100644 0000000 1df174f A	html/paginaCriarConta.html
+:000000 100644 0000000 86cea9a A	html/paginaFavoritos.html
+:000000 100644 0000000 9c27564 A	html/paginaHome.html
+:000000 100644 0000000 a88df0a A	html/paginaLogin.html
+:000000 100644 0000000 cfcae54 A	html/paginaParaVoces.html
+:100644 000000 c0d1757 0000000 D	imagens/Logo.png
+:000000 100644 0000000 c0d1757 A	img/Logo.png
+:000000 100644 0000000 fea78e5 A	java/server.java
+:100644 000000 9b7e122 0000000 D	login.css
+:100644 000000 bf424ce 0000000 D	login.html
+:100644 000000 c8dfb5f 0000000 D	style.css
+
+user:hysabelly
+1682189723
+:100644 100644 1df174f 7885175 M	html/paginaCriarConta.html
+
+user:hysabelly
+1682189771
+:100644 100644 86cea9a e888685 M	html/paginaFavoritos.html
+
+user:hysabelly
+1682189816
+:100644 100644 9c27564 9bf8077 M	html/paginaHome.html
+
+user:hysabelly
+1682189872
+:100644 100644 a88df0a ea39a08 M	html/paginaLogin.html
+
+user:hysabelly
+1682189904
+:100644 100644 cfcae54 869c673 M	html/paginaParaVoces.html
+
+user:hysabelly
+1682191489
+:000000 100644 0000000 a62d7ba A	favicon.ico
+
+user:hysabelly
+1682191531
+:100644 100644 7885175 956fe7b M	html/paginaCriarConta.html
+
+user:hysabelly
+1682191557
+:100644 100644 e888685 0e6aa50 M	html/paginaFavoritos.html
+
+user:hysabelly
+1682191577
+:100644 100644 9bf8077 48c1487 M	html/paginaHome.html
+
+user:hysabelly
+1682191602
+:100644 100644 ea39a08 698b42e M	html/paginaLogin.html
+
+user:hysabelly
+1682191617
+:100644 100644 869c673 27fc622 M	html/paginaParaVoces.html
+
+user:hysabelly
+1682191666
+:100644 000000 48c1487 0000000 D	html/paginaHome.html
+:000000 100644 0000000 4a4e1ad A	html/paginaInicial.html
+
+user:hysabelly
+1682191695
+:100644 100644 0e6aa50 bcd3dc1 M	html/paginaFavoritos.html
+
+user:hysabelly
+1682191724
+:100644 100644 27fc622 cd34a22 M	html/paginaParaVoces.html
+
+user:hysabelly
+1682192103
+:100644 100644 bcd3dc1 b781325 M	html/paginaFavoritos.html
+
+user:hysabelly
+1682192137
+:100644 100644 4a4e1ad fec9d76 M	html/paginaInicial.html
+
+user:hysabelly
+1682192158
+:000000 100644 0000000 cd34a22 A	html/paginaParaVoce.html
+:100644 000000 cd34a22 0000000 D	html/paginaParaVoces.html
+
+user:hysabelly
+1682192196
+:100644 100644 cd34a22 84814cf M	html/paginaParaVoce.html
+
+user:hysabelly
+1682192373
+:100644 100644 956fe7b a782eee M	html/paginaCriarConta.html
+
+user:hysabelly
+1682192392
+:100644 100644 b781325 3aeca47 M	html/paginaFavoritos.html
+
+user:hysabelly
+1682192423
+:100644 100644 fec9d76 51e0a93 M	html/paginaInicial.html
+
+user:hysabelly
+1682192448
+:100644 100644 698b42e c195f5e M	html/paginaLogin.html
+
+user:hysabelly
+1682192470
+:100644 100644 84814cf dd17581 M	html/paginaParaVoce.html
+
+user:hysabelly
+1682192947
+:100644 100644 3aeca47 479ed20 M	html/paginaFavoritos.html
+:100644 100644 51e0a93 01648da M	html/paginaInicial.html
+:100644 100644 dd17581 b22be34 M	html/paginaParaVoce.html
+
+user:hysabelly
+1682194625
+:100644 100644 f592c6d 192c810 M	css/cabecalho.css
+
+user:hysabelly
+1682196350
+:000000 100644 0000000 19647bf A	img/imagem1.png
+:000000 100644 0000000 f5b01d1 A	img/imagem10.png
+:000000 100644 0000000 6602215 A	img/imagem11.png
+:000000 100644 0000000 cab4cae A	img/imagem12.png
+:000000 100644 0000000 4b16dc1 A	img/imagem13.png
+:000000 100644 0000000 3f362f0 A	img/imagem14.png
+:000000 100644 0000000 06845d4 A	img/imagem2.png
+:000000 100644 0000000 768d76b A	img/imagem3.png
+:000000 100644 0000000 b3f1b00 A	img/imagem4.png
+:000000 100644 0000000 035a544 A	img/imagem5.png
+:000000 100644 0000000 1782f13 A	img/imagem6.png
+:000000 100644 0000000 7efa7ce A	img/imagem7.png
+:000000 100644 0000000 29512f6 A	img/imagem8.png
+:000000 100644 0000000 aac86a7 A	img/imagem9.png
+
+user:caua-pereira-santos
+1682198214
+:100644 100644 eb9f310 29725fb M	css/login.css
+:100644 100644 c195f5e b29f2d8 M	html/paginaLogin.html
+
+user:caua-pereira-santos
+1682271186
+:100644 100644 b29f2d8 4d92481 M	html/paginaLogin.html
+:000000 100644 0000000 7f950f6 A	html/validaLogin.js
+:100644 000000 fea78e5 0000000 D	java/server.java
+
+user:caua-pereira-santos
+1682273553
+:100644 100644 192c810 e1afb60 M	css/cabecalho.css
+:100644 100644 479ed20 9205fd9 M	html/paginaFavoritos.html
+:100644 100644 01648da 4efe167 M	html/paginaInicial.html
+:100644 100644 b22be34 fe11840 M	html/paginaParaVoce.html
+:000000 100644 0000000 6005130 A	html/sair.js
+
+user:caua-pereira-santos
+1682279831
+:100644 100644 e1afb60 0f2f6db M	css/cabecalho.css
+:100644 100644 9205fd9 562d7f8 M	html/paginaFavoritos.html
+:100644 100644 4efe167 1d440f1 M	html/paginaInicial.html
+:100644 100644 fe11840 dd51249 M	html/paginaParaVoce.html
+:100644 100644 6005130 ee72823 M	html/sair.js
+
+user:caua-pereira-santos
+1682296098
+:100644 100644 29725fb 1d5b041 M	css/login.css
+:100644 100644 4d92481 bbcaad6 M	html/paginaLogin.html
+
+user:hysabelly
+1682296446
+:100644 100644 1d440f1 0ef858f M	html/paginaInicial.html
+
+user:hysabelly
+1682296476
+:000000 100644 0000000 451e3aa A	css/style.css
+
+user:caua-pereira-santos
+1682308705
+:100644 100644 1d5b041 4cbe093 M	css/login.css
+:100644 100644 a782eee 9553e73 M	html/paginaCriarConta.html
+:100644 100644 0ef858f 6c16318 M	html/paginaInicial.html
+:100644 100644 bbcaad6 dcfe7b9 M	html/paginaLogin.html
+:100644 100644 7f950f6 40b3668 M	html/validaLogin.js
+:000000 100644 0000000 29ab511 A	img/btn_google_signin_light_normal_web.png
+
+user:caua-pereira-santos
+1682309667
+:100644 100644 4cbe093 e49367c M	css/login.css
+:100644 100644 dcfe7b9 4582693 M	html/paginaLogin.html
+
+user:caua-pereira-santos
+1682311645
+:100644 100644 e49367c ce1af8b M	css/login.css
+:000000 100644 0000000 c0d1757 A	html/Logo.png
+:100644 100644 4582693 65550f8 M	html/paginaLogin.html
+:100644 000000 c0d1757 0000000 D	img/Logo.png
+
+user:hysabelly
+1682356060
+:000000 100644 0000000 0e0ebb9 A	.github/workflows/main_michellin.yml
+
+user:hysabelly
+1682391125
+:100644 000000 0e0ebb9 0000000 D	.github/workflows/main_michellin.yml
+
+user:GUSTAVOCHAVES4
+1682391373
+:000000 100644 0000000 afc2594 A	.vscode/settings.json
+
+user:GUSTAVOCHAVES4
+1682391826
+:100644 000000 afc2594 0000000 D	.vscode/settings.json
+
+user:caua-pereira-santos
+1682397131
+:000000 100644 0000000 c0d1757 A	html/Logo copy.png
+:100644 000000 c0d1757 0000000 D	html/Logo.png
+:100644 100644 9553e73 bc92ae7 M	html/paginaCriarConta.html
+:100644 100644 562d7f8 fb8b442 M	html/paginaFavoritos.html
+:100644 100644 6c16318 6e963cb M	html/paginaInicial.html
+:100644 100644 65550f8 8c5480b M	html/paginaLogin.html
+:100644 100644 dd51249 7e8fdaf M	html/paginaParaVoce.html
+:100644 000000 ee72823 0000000 D	html/sair.js
+:100644 100644 40b3668 0c185eb M	html/validaLogin.js
+:000000 100644 0000000 c0d1757 A	img/Logo.png
+
+user:GUSTAVOCHAVES4
+1682397612
+:000000 100644 0000000 b22e3e7 A	pom.xml
+:000000 100644 0000000 17fcb45 A	target/maven-archiver/pom.properties
+:000000 100644 0000000 ea1490f A	target/my-app-1.0-SNAPSHOT.jar
+
+user:hysabelly
+1682397739
+:000000 100644 0000000 44562b9 A	.github/workflows/main_michellin.yml
+
+user:GUSTAVOCHAVES4
+1682399736
+:000000 100644 0000000 b089321 A	WEB-INF/web.xml
+:100644 100644 b22e3e7 d171d2a M	pom.xml
+:100644 000000 ea1490f 0000000 D	target/my-app-1.0-SNAPSHOT.jar
+:000000 100644 0000000 15cb0ec A	target/my-app-1.0-SNAPSHOT.war
+
+user:GUSTAVOCHAVES4
+1682400747
+:100644 100644 d171d2a f012122 M	pom.xml
+
+user:GUSTAVOCHAVES4
+1682402325
+:100644 100644 f012122 ddcb28f M	pom.xml
+:100644 100644 15cb0ec e0015fc M	target/my-app-1.0-SNAPSHOT.war
+
+user:GUSTAVOCHAVES4
+1682407105
+:100644 100644 b089321 1ba6350 M	WEB-INF/web.xml
+:100644 100644 ddcb28f fc0bd11 M	pom.xml
+:000000 100644 0000000 aca63cc A	src/main/java/com.michellin.servlets/MeuServlet.java
+:000000 100644 0000000 fca2600 A	target/classes/com/azure/michellin/servlets/MeuServlet.class
+:000000 100644 0000000 dcdbf10 A	target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+:000000 100644 0000000 7275eb2 A	target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+:100644 100644 e0015fc 9839e75 M	target/my-app-1.0-SNAPSHOT.war
+:000000 100644 0000000 fca2600 A	target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/azure/michellin/servlets/MeuServlet.class
+
+user:GUSTAVOCHAVES4
+1682407344
+:100644 000000 1ba6350 0000000 D	WEB-INF/web.xml
+:000000 100644 0000000 1ba6350 A	src/main/webapp/WEB-INF/web.xml
+
+user:GUSTAVOCHAVES4
+1682407927
+:100644 100644 1ba6350 e7b22b9 M	src/main/webapp/WEB-INF/web.xml
+
+user:GUSTAVOCHAVES4
+1682444701
+:100644 100644 44562b9 3840a5c M	.github/workflows/main_michellin.yml
+:100644 100644 9839e75 62613ba M	target/my-app-1.0-SNAPSHOT.war
+:000000 100644 0000000 e7b22b9 A	target/my-app-1.0-SNAPSHOT/WEB-INF/web.xml
+
+user:GUSTAVOCHAVES4
+1682445813
+:100644 000000 e7b22b9 0000000 D	src/main/webapp/WEB-INF/web.xml
+:100644 100644 62613ba 92fbabd M	target/my-app-1.0-SNAPSHOT.war
+:100644 100644 e7b22b9 97eaf16 M	target/my-app-1.0-SNAPSHOT/WEB-INF/web.xml
+
+user:GUSTAVOCHAVES4
+1682446999
+:100644 100644 fc0bd11 583f75d M	pom.xml
+:000000 100644 0000000 cd76abc A	src/main/webapp/WEB-INF/web.xml
+:100644 100644 92fbabd 14f6c22 M	target/my-app-1.0-SNAPSHOT.war
+:100644 100644 97eaf16 cd76abc M	target/my-app-1.0-SNAPSHOT/WEB-INF/web.xml
+
+user:Ryan Henrique de Aguiar dos Santos
+1682523003
+:000000 100644 0000000 c042468 A	html/idiomas.js
+:100644 100644 bc92ae7 c9f14ae M	html/paginaCriarConta.html
+:100644 100644 fb8b442 3e79e3f M	html/paginaFavoritos.html
+:100644 100644 6e963cb e09f999 M	html/paginaInicial.html
+:100644 100644 8c5480b c649757 M	html/paginaLogin.html
+:100644 100644 7e8fdaf 6c7a519 M	html/paginaParaVoce.html
+
+user:Akemi Alice
+1682532713
+:100644 100644 583f75d 5261e40 M	pom.xml
+
+user:GUSTAVOCHAVES4
+1682533508
+:000000 100644 0000000 2a4042c A	.vscode/settings.json
+:000000 100644 0000000 515cfc8 A	.vscode/tasks.json
+:100644 100644 583f75d 430dbe6 M	pom.xml
+:100644 000000 aca63cc 0000000 D	src/main/java/com.michellin.servlets/MeuServlet.java
+:100644 100644 cd76abc 946300f M	src/main/webapp/WEB-INF/web.xml
+:100644 000000 fca2600 0000000 D	target/classes/com/azure/michellin/servlets/MeuServlet.class
+:100644 000000 dcdbf10 0000000 D	target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+:100644 000000 7275eb2 0000000 D	target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+:100644 100644 14f6c22 7ecb0f5 M	target/my-app-1.0-SNAPSHOT.war
+:100644 000000 fca2600 0000000 D	target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/azure/michellin/servlets/MeuServlet.class
+:100644 100644 cd76abc 610f3f6 M	target/my-app-1.0-SNAPSHOT/WEB-INF/web.xml
+
+user:GUSTAVOCHAVES4
+1682533609
+user:GUSTAVOCHAVES4
+1682533837
+:100644 100644 2a4042c 5ba52ec M	.vscode/settings.json
+
+user:caua-pereira-santos
+1683154434
+:100644 000000 c0d1757 0000000 D	img/Logo.png
+:000000 100644 0000000 c0d1757 A	img/logo.png
+
+user:caua-pereira-santos
+1683261771
+:100644 100644 c042468 7d5253e M	html/idiomas.js
+:100644 100644 3e79e3f 84ee4cb M	html/paginaFavoritos.html
+:100644 100644 e09f999 ec883e3 M	html/paginaInicial.html
+:100644 100644 6c7a519 b50c6a4 M	html/paginaParaVoce.html
+
+user:caua-pereira-santos
+1683266768
+:100644 100644 0f2f6db 4ebfe31 M	css/cabecalho.css
+:100644 100644 451e3aa 3cdcf11 M	css/style.css
+:100644 100644 7d5253e c8ef310 M	html/idiomas.js
+:100644 100644 84ee4cb 53e90ef M	html/paginaFavoritos.html
+:100644 100644 ec883e3 6413c55 M	html/paginaInicial.html
+:100644 100644 b50c6a4 005db83 M	html/paginaParaVoce.html
+:000000 100644 0000000 ecb854f A	html/politicaPrivacidade.html
+:000000 100644 0000000 ec3dbbe A	html/quemSomos.html
+
+user:caua-pereira-santos
+1683414445
+:100644 100644 4ebfe31 2804ffa M	css/cabecalho.css
+:100644 100644 3cdcf11 9eced25 M	css/style.css
+:100644 100644 6413c55 04d793f M	html/paginaInicial.html
+:000000 100644 0000000 ff1fa01 A	html/script.js
+
+user:caua-pereira-santos
+1683424165
+:100644 100644 9eced25 1327af1 M	css/style.css
+:100644 100644 04d793f 2f46073 M	html/paginaInicial.html
+:100644 100644 ff1fa01 0d24954 M	html/script.js
+
+user:caua-pereira-santos
+1683876567
+:100644 100644 1327af1 9a8f7ed M	css/style.css
+:100644 100644 2f46073 2d69c7f M	html/paginaInicial.html
+
+user:caua-pereira-santos
+1683945609
+:100644 100644 2d69c7f 521d9e9 M	html/paginaInicial.html
+
+user:caua-pereira-santos
+1683959350
+:100644 100644 ce1af8b 85d678d M	css/login.css
+:100644 100644 c8ef310 8b59e73 M	html/idiomas.js
+:100644 100644 c649757 1d5574e M	html/paginaLogin.html
+:000000 100644 0000000 22bc2fd A	img/7085e288-06c0-4007-9fe9-2c812797289d.webp
+
+user:caua-pereira-santos
+1684025129
+:100644 100644 521d9e9 2ebf258 M	html/paginaInicial.html
+:100644 100644 0d24954 3d535db M	html/script.js
+
+user:caua-pereira-santos
+1684029601
+:100644 100644 2804ffa 3e2ee67 M	css/cabecalho.css
+:100644 100644 9a8f7ed e77afc4 M	css/style.css
+:100644 100644 53e90ef 99a627c M	html/paginaFavoritos.html
+:100644 100644 2ebf258 77a041b M	html/paginaInicial.html
+:100644 100644 005db83 3273c0f M	html/paginaParaVoce.html
+:100644 100644 ecb854f ca916cb M	html/politicaPrivacidade.html
+:100644 100644 ec3dbbe 268db58 M	html/quemSomos.html
+
+user:GUSTAVOCHAVES4
+1684298609
+:100644 100644 3e2ee67 fcf4c4f M	css/cabecalho.css
+:100644 100644 99a627c 846b733 M	html/paginaFavoritos.html
+:100644 100644 77a041b f19cbe5 M	html/paginaInicial.html
+:100644 100644 3273c0f 8fef4f9 M	html/paginaParaVoce.html
+:100644 100644 ca916cb fb52321 M	html/politicaPrivacidade.html
+:100644 100644 268db58 673ea36 M	html/quemSomos.html
+:000000 100644 0000000 441ecba A	html/search.js
+
+user:caua-pereira-santos
+1684349994
+:100644 100644 fcf4c4f 7e13c80 M	css/cabecalho.css
+:100644 100644 846b733 5adf11d M	html/paginaFavoritos.html
+:100644 100644 f19cbe5 1902356 M	html/paginaInicial.html
+:100644 100644 8fef4f9 f8e8d5b M	html/paginaParaVoce.html
+:100644 100644 fb52321 aa003f5 M	html/politicaPrivacidade.html
+:100644 100644 673ea36 285976c M	html/quemSomos.html
+
+user:caua-pereira-santos
+1684353106
+:100644 100644 7e13c80 c142ede M	css/cabecalho.css
+
+user:caua-pereira-santos
+1684714473
+:100644 100644 e77afc4 c7fca42 M	css/style.css
+:100644 100644 5adf11d 6d1d6dc M	html/paginaFavoritos.html
+:100644 100644 1902356 1d4fa81 M	html/paginaInicial.html
+:100644 100644 f8e8d5b a1a960a M	html/paginaParaVoce.html
+:100644 100644 aa003f5 a443f8d M	html/politicaPrivacidade.html
+:100644 100644 285976c 05f7be5 M	html/quemSomos.html
+:100644 100644 3d535db af76362 M	html/script.js
+
+user:Ryan Henrique de Aguiar dos Santos
+1684833121
+:100644 100644 8b59e73 93073f0 M	html/idiomas.js
+:100644 100644 6d1d6dc 420a923 M	html/paginaFavoritos.html
+:100644 100644 1d4fa81 726284b M	html/paginaInicial.html
+:100644 100644 a1a960a 4c7622a M	html/paginaParaVoce.html
+
+user:caua-pereira-santos
+1684870502
+:100644 100644 93073f0 d46db58 M	html/idiomas.js
+:100644 100644 420a923 a7740c3 M	html/paginaFavoritos.html
+:100644 100644 726284b 83a6256 M	html/paginaInicial.html
+:100644 100644 4c7622a ce1c996 M	html/paginaParaVoce.html
+:100644 100644 a443f8d b018070 M	html/politicaPrivacidade.html
+:100644 100644 05f7be5 2a0e9c9 M	html/quemSomos.html
+:100644 100644 946300f cffe511 M	src/main/webapp/WEB-INF/web.xml
+
+user:hysabelly
+1684883190
+:100644 100644 b018070 5d2ac88 M	html/politicaPrivacidade.html
+
+user:hysabelly
+1684883275
+:100644 100644 2a0e9c9 e0f19bd M	html/quemSomos.html
+
+user:hysabelly
+1684883305
+:000000 100644 0000000 8b13789 A	html/paginaContato.html
+
+user:hysabelly
+1684883381
+:100644 100644 8b13789 aef04ca M	html/paginaContato.html
+
+user:hysabelly
+1684886518
+:100644 100644 e0f19bd b9b4508 M	html/quemSomos.html
+
+user:Emyzinha
+1684892091
+:100644 100644 ce1c996 3154674 M	html/paginaParaVoce.html
+
+user:Emyzinha
+1684892169
+:100644 100644 aef04ca 3cd728f M	html/paginaContato.html
+
+user:Emyzinha
+1684892398
+:100644 100644 3cd728f aef04ca M	html/paginaContato.html
+
+user:Emyzinha
+1684892449
+:100644 100644 3154674 4f3a146 M	html/paginaParaVoce.html
+
+user:caua-pereira-santos
+1684899524
+:100644 100644 83a6256 3067040 M	html/paginaInicial.html
+:100644 100644 4f3a146 79b56a7 M	html/paginaParaVoce.html
+:000000 100644 0000000 5d2ac88 A	html/paginaPoliticas.html
+:000000 100644 0000000 b9b4508 A	html/paginaSobre.html
+:100644 000000 5d2ac88 0000000 D	html/politicaPrivacidade.html
+:100644 000000 b9b4508 0000000 D	html/quemSomos.html
+
+user:caua-pereira-santos
+1684901993
+:100644 100644 d46db58 81c2023 M	html/idiomas.js
+:100644 100644 3067040 63d8591 M	html/paginaInicial.html
+:100644 100644 af76362 02d34d8 M	html/script.js
+
+user:caua-pereira-santos
+1684902790
+:100644 100644 c142ede de38f31 M	css/cabecalho.css
+
+user:Ryan Henrique de Aguiar dos Santos
+1684948670
+:100644 100644 81c2023 7277a72 M	html/idiomas.js
+:100644 100644 a7740c3 2b0aec8 M	html/paginaFavoritos.html
+:100644 100644 63d8591 2158a81 M	html/paginaInicial.html
+:100644 100644 79b56a7 3e4b1e5 M	html/paginaParaVoce.html
+
+user:hysabelly
+1684952206
+:100644 100644 5d2ac88 a380672 M	html/paginaPoliticas.html
+
+user:hysabelly
+1684952235
+:100644 100644 aef04ca c0314d4 M	html/paginaContato.html
+
+user:hysabelly
+1684952256
+:100644 100644 b9b4508 95bd013 M	html/paginaSobre.html
+
+user:hysabelly
+1684952353
+:100644 100644 c7fca42 9bc919d M	css/style.css
+
+user:Emyzinha
+1684976366
+:100644 100644 3e4b1e5 6d3bf1f M	html/paginaParaVoce.html
+
+user:Emyzinha
+1684976450
+:000000 100644 0000000 37f0a0b A	html/paraVoce.js
+
+user:caua-pereira-santos
+1684990782
+:100644 100644 9bc919d c229ee6 M	css/style.css
+:100644 100644 c0314d4 d0e931c M	html/paginaContato.html
+:100644 100644 a380672 d8845ac M	html/paginaPoliticas.html
+:100644 100644 95bd013 cfe496d M	html/paginaSobre.html
+
+user:caua-pereira-santos
+1684994819
+:100644 100644 c229ee6 c2b77f1 M	css/style.css
+:100644 100644 cfe496d 3e6f37a M	html/paginaSobre.html
+
+user:caua-pereira-santos
+1684998524
+:100644 100644 c2b77f1 bf0b16b M	css/style.css
+:100644 100644 d8845ac e81d48c M	html/paginaPoliticas.html
+
+user:caua-pereira-santos
+1684999880
+:100644 100644 bf0b16b a21a38b M	css/style.css
+
+user:caua-pereira-santos
+1685153626
+:100644 100644 02d34d8 695aa20 M	html/script.js
+
+user:caua-pereira-santos
+1685163274
+:100644 100644 2158a81 55125f0 M	html/paginaInicial.html
+
+user:caua-pereira-santos
+1685221795
+:100644 100644 55125f0 d5bdae1 M	html/paginaInicial.html
+
+user:caua-pereira-santos
+1685226499
+:100644 100644 3e6f37a d82a236 M	html/paginaSobre.html
+
+user:hysabelly
+1685233798
+:100644 100644 e81d48c c1e07c7 M	html/paginaPoliticas.html
+
+user:caua-pereira-santos
+1685242292
+:100644 100644 d5bdae1 0f7f1b9 M	html/paginaInicial.html
+:100644 100644 695aa20 cdb1a01 M	html/script.js
+
+user:hysabelly
+1685242853
+:100644 100644 d82a236 5179d95 M	html/paginaSobre.html
+
+user:hysabelly
+1685243025
+:100644 100644 5179d95 27b070a M	html/paginaSobre.html
+
+user:caua-pereira-santos
+1685251658
+:100644 100644 0f7f1b9 d94f9c6 M	html/paginaInicial.html
+:100644 100644 c1e07c7 a9bacf9 M	html/paginaPoliticas.html
+
+user:Emyzinha
+1685326027
+:100644 100644 6d3bf1f 56ce8d4 M	html/paginaParaVoce.html
+
+user:Emyzinha
+1685326057
+:100644 100644 37f0a0b f3e6223 M	html/paraVoce.js
+
+user:Emyzinha
+1685326125
+:000000 100644 0000000 8b13789 A	paraVoce.css
+
+user:GUSTAVOCHAVES4
+1685402987
+:100644 100644 de38f31 23e0b40 M	css/cabecalho.css
+:100644 100644 7277a72 44d79db M	html/idiomas.js
+:100644 100644 d0e931c cd56d3c M	html/paginaContato.html
+:100644 100644 2b0aec8 06837e6 M	html/paginaFavoritos.html
+:100644 100644 d94f9c6 c6459d6 M	html/paginaInicial.html
+:100644 100644 56ce8d4 0fe8c56 M	html/paginaParaVoce.html
+:100644 100644 a9bacf9 8d57198 M	html/paginaPoliticas.html
+:100644 100644 27b070a b634d2b M	html/paginaSobre.html
+:100644 100644 441ecba a0846e6 M	html/search.js
+
+user:hysabelly
+1685495407
+:000000 100644 0000000 0b16f66 A	img/akemi.jpeg
+:000000 100644 0000000 a85ffb6 A	"img/cau\303\243.jpeg"
+:000000 100644 0000000 2e26ffc A	img/emily.jpeg
+:000000 100644 0000000 b60555f A	img/gustavo.jpeg
+:000000 100644 0000000 18ed9d9 A	img/hysabelly.jpeg
+:000000 100644 0000000 62071e4 A	img/ryan.jpeg
+
+user:hysabelly
+1685495512
+:100644 100644 b634d2b 4fbecba M	html/paginaSobre.html
+
+user:hysabelly
+1685553827
+:100644 100644 c6459d6 53ee62a M	html/paginaInicial.html
+
+user:hysabelly
+1685554147
+:100644 100644 85d678d fa5189e M	css/login.css
+
+user:hysabelly
+1685554207
+:100644 100644 a21a38b 802b5d5 M	css/style.css
+
+user:hysabelly
+1685554451
+:100644 100644 d1474e5 45ea0e2 M	pom.xml
+
+user:hysabelly
+1685554540
+:100644 100644 44d79db 6b4210e M	html/idiomas.js
+
+user:hysabelly
+1685554699
+:100644 100644 cd56d3c b55e5c7 M	html/paginaContato.html
+
+user:hysabelly
+1685554727
+user:hysabelly
+1685554772
+:100644 100644 06837e6 2977225 M	html/paginaFavoritos.html
+
+user:hysabelly
+1685554810
+:100644 100644 1d5574e d67288a M	html/paginaLogin.html
+
+user:hysabelly
+1685554882
+:100644 100644 0fe8c56 695f2b7 M	html/paginaParaVoce.html
+
+user:hysabelly
+1685554939
+:100644 100644 8d57198 55ed4b6 M	html/paginaPoliticas.html
+
+user:hysabelly
+1685554994
+:100644 100644 cdb1a01 3b6ade6 M	html/script.js
+
+user:hysabelly
+1685555008
+:100644 100644 a0846e6 44438a3 M	html/search.js
+
+user:hysabelly
+1685555048
+:100644 100644 0c185eb f2c9cfe M	html/validaLogin.js
+
+user:hysabelly
+1685555108
+:100644 100644 4fbecba 323dfc7 M	html/paginaSobre.html
+
+user:Med
+1685558021
+:100644 100644 53ee62a 39b38df M	html/paginaInicial.html
+
+user:Med
+1685558108
+:100644 100644 3b6ade6 75d63fe M	html/script.js
+
+user:Med
+1685558212
+:100644 100644 802b5d5 3012183 M	css/style.css
+
+user:GUSTAVOCHAVES4
+1685560488
+:100644 000000 6b4210e 0000000 D	html/idiomas.js
+:100644 100644 b55e5c7 d8cdc55 M	html/paginaContato.html
+:100644 100644 c9f14ae 9e662fe M	html/paginaCriarConta.html
+:100644 100644 2977225 c5d480e M	html/paginaFavoritos.html
+:100644 100644 39b38df 7d8a2f0 M	html/paginaInicial.html
+:100644 100644 d67288a ed882cc M	html/paginaLogin.html
+:100644 100644 695f2b7 bc44627 M	html/paginaParaVoce.html
+:100644 100644 55ed4b6 32f3f30 M	html/paginaPoliticas.html
+:100644 100644 323dfc7 6ca065f M	html/paginaSobre.html
+:100644 000000 f3e6223 0000000 D	html/paraVoce.js
+:100644 000000 75d63fe 0000000 D	html/script.js
+:100644 000000 44438a3 0000000 D	html/search.js
+:100644 000000 f2c9cfe 0000000 D	html/validaLogin.js
+:000000 100644 0000000 6b4210e A	js/idiomas.js
+:000000 100644 0000000 f3e6223 A	js/paraVoce.js
+:000000 100644 0000000 75d63fe A	js/script.js
+:000000 100644 0000000 44438a3 A	js/search.js
+:000000 100644 0000000 f2c9cfe A	js/validaLogin.js
+
+user:hysabelly
+1685576202
+:100644 100644 7d8a2f0 758c269 M	html/paginaInicial.html
+
+user:hysabelly
+1685578512
+:100644 100644 758c269 2d09682 M	html/paginaInicial.html
+
+user:hysabelly
+1685579275
+:100644 100644 6ca065f 197c6d6 M	html/paginaSobre.html
+
+user:hysabelly
+1685579389
+:100644 100644 32f3f30 3cf12a7 M	html/paginaPoliticas.html
+
+user:hysabelly
+1685579450
+:100644 100644 bc44627 e0621a5 M	html/paginaParaVoce.html
+
+user:hysabelly
+1685579681
+:100644 100644 c5d480e 3b4c26b M	html/paginaFavoritos.html
+
+user:hysabelly
+1685579713
+:100644 100644 ed882cc a76b538 M	html/paginaLogin.html
+
+user:hysabelly
+1685579781
+:100644 100644 d8cdc55 fc0ea52 M	html/paginaContato.html
+
+user:hysabelly
+1685582161
+:100644 100644 2d09682 c683d3f M	html/paginaInicial.html
+
+user:hysabelly
+1685582209
+:100644 100644 75d63fe 6ca9c28 M	js/script.js
+
+user:Estudante 1
+1685582723
+:100644 100644 3012183 c2e6d3b M	css/style.css
+:100644 100644 e0621a5 b255f4f M	html/paginaParaVoce.html
+:000000 100644 0000000 d490265 A	img/100.png
+:000000 100644 0000000 72a02e1 A	img/200.png
+:000000 100644 0000000 ab16cd6 A	img/300.png
+:100644 000000 22bc2fd 0000000 D	img/7085e288-06c0-4007-9fe9-2c812797289d.webp
+:000000 100644 0000000 22bc2fd A	img/teste.webp
+:100644 100644 f3e6223 0abfad6 M	js/paraVoce.js
+
+user:caua-pereira-santos
+1686362175
+:100644 100644 fc0ea52 91aacc5 M	html/paginaContato.html
+
+user:hysabelly
+1686364736
+:100644 000000 18ed9d9 0000000 D	img/hysabelly.jpeg
+
+user:hysabelly
+1686364772
+:000000 100644 0000000 23bb6fd A	img/hysabelly.jpeg
+
+user:Ryan Henrique de Aguiar dos Santos
+1686436394
+:100644 100644 fc0ea52 18b5125 M	html/paginaContato.html
+:100644 100644 c683d3f e9678ac M	html/paginaInicial.html
+:100644 100644 3cf12a7 4f0d38f M	html/paginaPoliticas.html
+:100644 100644 197c6d6 15404ce M	html/paginaSobre.html
+:100644 100644 6b4210e da251a9 M	js/idiomas.js
+
+user:Ryan Henrique de Aguiar dos Santos
+1686436724
+user:Emyzinha
+1686526769
+:100644 100644 0abfad6 20d48f8 M	js/paraVoce.js
+
+user:Emyzinha
+1686526812
+:100644 100644 b255f4f 60a324c M	html/paginaParaVoce.html
+
+user:Emyzinha
+1686526853
+:100644 100644 c2e6d3b 2eabb3f M	css/style.css
+
+user:Emyzinha
+1686526899
+:000000 100644 0000000 dced7fd A	img/gif.gif
+
+user:Ryan Henrique de Aguiar dos Santos
+1686532530
+:100644 100644 b255f4f 943948d M	html/paginaParaVoce.html
+:100644 100644 da251a9 5e8d263 M	js/idiomas.js
+
+user:Ryan Henrique de Aguiar dos Santos
+1686535441
