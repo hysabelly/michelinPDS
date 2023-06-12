@@ -88,31 +88,31 @@
 
 <!-- codigo da pagina -->
 
-<h1>Olá, Akemi Alice!</h1>
-<p>Clique na opção desejada para encontrar seu restaurante ideal hoje!</p>
+<h1 class ="lang" key ="texto45">Olá, Akemi Alice!</h1>
+<p class = "lang" key ="texto44">Clique na opção desejada para encontrar seu restaurante ideal hoje!</p>
 <br>
 
 <!--pergunta 1-->
 <div class="form-group" id="pergunta-1">
-  <h2>Até qual valor você pretende gastar hoje?</h2>
+  <h2 class ="lang" key = "titulo1">Até qual valor você pretende gastar hoje?</h2>
   <div class="opcoes-valor">
     <button id="valor-100" onclick="mostrarProximaPergunta('pergunta-2')">
       <div class="imagem-container">
-        <img src="/img/teste.webp" height="200" width="300" />
+        <img src="../img/teste.webp" height="200" width="300" />
       </div>
       <span class="legenda">$ 100</span>
     </button>
 
     <button id="valor-200" onclick="mostrarProximaPergunta('pergunta-2')">
       <div class="imagem-container">
-        <img src="/img/teste.webp" height="200" width="300" />
+        <img src="../img/teste.webp" height="200" width="300" />
       </div>
       <span class="legenda">$ 200</span>
     </button>
 
     <button id="valor-300" onclick="mostrarProximaPergunta('pergunta-2')">
       <div class="imagem-container">
-        <img src="/img/teste.webp" height="200" width="300" />
+        <img src="../img/teste.webp" height="200" width="300" />
       </div>
       <span class="legenda">$ 300</span>
     </button>
@@ -127,25 +127,25 @@
   <div class="opcoes1-2" >
   <button id="rapida" onclick="mostrarProximaPergunta('pergunta-3')">
     <div class="imagem-container">
-      <img src="/img/teste.webp" height="200" width="300" />
+      <img src="../img/teste.webp" height="200" width="300" />
     </div>
-    <span class="legenda">Rápida</span>
+    <span class="legenda lang" key ="texto19">Rápida</span>
   </button>
 </div>
 
   <button id="elaborada" onclick="mostrarProximaPergunta('pergunta-4')">
     <div class="imagem-container">
-      <img src="/img/teste.webp" height="200" width="300" />
+      <img src="../img/teste.webp" height="200" width="300" />
     </div>
-    <span class="legenda">Mais Elaborada</span>
+    <span class="legenda lang" key = "texto16">Mais Elaborada</span>
   </button>
 
 
   <button id="altaGastronomia" onclick="mostrarProximaPergunta('pergunta-5')">
     <div class="imagem-container">
-      <img src="/img/teste.webp" height="200" width="300" />
+      <img src="../img/teste.webp" height="200" width="300" />
     </div>
-    <span class="legenda">Alta Gastronomia</span>
+    <span class="legenda lang " key = "ag">Alta Gastronomia</span>
   </button>
  </div>
 </div>
@@ -153,31 +153,31 @@
 <!--resposta-->
 
   <div class="form-group" id="pergunta-3" style="display: none;">
-    <p>Fast Food ou Populares</p>
+    <p class="lang" key = "texto17">Fast Food ou Populares</p>
   </div>
 
   <div class="form-group" id="pergunta-5" style="display: none;">
-    <p>Alta Gastronomia</p>
+    <p class = "lang" key = "ag">Alta Gastronomia</p>
   </div>
 
   <!-- pergunta 3-->
 
   <div class="form-group" id="pergunta-4" style="display: none;">
-    <label for="pergunta-4">Você deseja uma refeição mais casual ou mais diferente?</label><br>
+    <label class ="lang" for="pergunta-4" key ="texto18">Você deseja uma refeição mais casual ou mais diferente?</label><br>
     <div class="categoria">
       <div class="categoria-1">
     <button id="casual" onclick="mostrarProximaPergunta('pergunta-6')">
       <div class="imagem-container">
-        <img src="/img/teste.webp" height="200" width="300" />
+        <img src="../img/teste.webp" height="200" width="300" />
       </div>
-      <span class="legenda">Casual</span>
+      <span class="legenda " >Casual</span>
     </button>
   </div>
     <button id="diferente" onclick="mostrarProximaPergunta('pergunta-7')">
       <div class="imagem-container">
-        <img src="/img/teste.webp" height="200" width="300" />
+        <img src="../img/teste.webp" height="200" width="300" />
       </div>
-      <span class="legenda">Mais Diferente</span>
+      <span class="legenda lang" key ="texto20">Mais Diferente</span>
     </button>
 
   </div>
@@ -186,113 +186,113 @@
 <!--resposta -->
 
   <div class="form-group" id="pergunta-7" style="display: none;">
-    <p>Temático, Outras Culinárias ou Regionais</p>
+    <p class ="lang" key ="texto21">Temático, Outras Culinárias ou Regionais</p>
   </div>
 
 <!--pergunta 4-->
   <div class="form-group" id="pergunta-6" style="display: none;">
-    <label for="pergunta-6">Qual tipo de culinária desejada?</label><br>
+    <label class = "lang" for="pergunta-6" key ="texto22">Qual tipo de culinária desejada?</label><br>
     <input type="radio" id="doce" name="culinaria" value="doce" onclick="mostrarPergunta('pergunta-8')">
-    <label for="doce">Doce</label><br>
+    <label class ="lang"for="doce" key ="texto23">Doce</label><br>
     <input type="radio" id="salgado" name="culinaria" value="salgado" onclick="mostrarPergunta('pergunta-9')">
-    <label for="salgado">Salgado</label><br>
+    <label class ="lang"for="salgado" key = "texto24">Salgado</label><br>
     <input type="radio" id="Cafeterias" name="culinaria" value="Cafeterias" onclick="mostrarPergunta('pergunta-10')">
-    <label for="salgado">Cafeterias</label><br>
+    <label class ="lang" for="salgado" key ="cf">Cafeterias</label><br>
   </div>
 
   <div class="form-group" id="pergunta-8" style="display: none;">
-    <label for="pergunta-8">Quente, fria ou massas?</label><br>
+    <label class ="lang" for="pergunta-8" key ="texto25">Quente, fria ou massas?</label><br>
     <input type="radio" id="quente" name="doce-opcao" value="quente" onclick="mostrarPergunta('pergunta-11')">
-    <label for="quente">Quente</label><br>
+  <label class ="lang"for="quente" key = "texto26">Quente</label><br>
     <input type="radio" id="fria" name="doce-opcao" value="fria" onclick="mostrarPergunta('pergunta-12')">
-    <label for="fria">Fria</label><br>
+    <label class ="lang" for="fria" key = "texto27">Fria</label><br>
     <input type="radio" id="massas" name="doce-opcao" value="massas" onclick="mostrarPergunta('pergunta-13')">
-    <label for="massas">Massas</label><br>
+    <label class ="lang" for="massas" key = "texto28">Massas</label><br>
   </div>
 
   <div class="form-group" id="pergunta-11" style="display: none;">
-    <p>Sobremesa quente</p>
+    <p class ="lang" key ="texto29">Sobremesa quente</p>
   </div>
 
   <div class="form-group" id="pergunta-12" style="display: none;">
-    <p>Sobremesa fria</p>
+    <p class ="lang" key ="texto30">Sobremesa fria</p>
   </div>
 
   <div class="form-group" id="pergunta-13" style="display: none;">
-    <p>Sobremesa com massa</p>
+    <p class ="lang" key ="texto31">Sobremesa com massa</p>
   </div>
 
   <div class="form-group" id="pergunta-10" style="display: none;">
-    <p>Cafeterias</p>
+    <p class = "lang" key ="cf">Cafeterias</p>
   </div>
 
   <div class="form-group" id="pergunta-9" style="display: none;">
-    <label for="pergunta-9">Gostaria de comer massas?</label><br>
+    <label class ="lang" for="pergunta-9" key ="texto32">Gostaria de comer massas?</label><br>
     <input type="radio" id="sim-massas" name="massas-salgado" value="sim" onclick="mostrarPergunta('pergunta-14')">
-    <label for="sim-massas">Sim</label><br>
+    <label class ="lang" for="sim-massas" key ="texto33">Sim</label><br>
     <input type="radio" id="nao-massas" name="massas-salgado" value="nao" onclick="mostrarPergunta('pergunta-15')">
-    <label for="nao-massas">Não</label><br>
+    <label class ="lang" for="nao-massas" key = "texto34">Não</label><br>
   </div>
 
   <div class="form-group" id="pergunta-14" style="display: none;">
-    <p>Espaguete, lasanha, pizza, nhoque</p>
+    <p class ="lang" key ="texto35">Espaguete, lasanha, pizza, nhoque</p>
   </div>
 
   <div class="form-group" id="pergunta-15" style="display: none;">
-    <label for="pergunta-15">Gostaria de comer hamburgueres?</label><br>
+    <label class ="lang" for="pergunta-15" key ="texto36">Gostaria de comer hamburgueres?</label><br>
     <input type="radio" id="sim-hamburgueres" name="hamburgueres-salgado" value="sim" onclick="mostrarPergunta('pergunta-16')">
-    <label for="sim-hamburgueres">Sim</label><br>
+    <label class = "lang" for="sim-hamburgueres" key ="texto33">Sim</label><br>
     <input type="radio" id="nao-hamburgueres" name="hamburgueres-salgado" value="nao" onclick="mostrarPergunta('pergunta-17')">
-    <label for="nao-hamburgueres">Não</label><br>
+    <label class = "lang" for="nao-hamburgueres" key ="texto34">Não</label><br>
   </div>
 
   <div class="form-group" id="pergunta-16" style="display: none;">
-    <p>Hamburguerias</p>
+    <p class = "lang" key = "ham">Hamburguerias</p>
   </div>
 
   <div class="form-group" id="pergunta-17" style="display: none;">
-    <label for="pergunta-17">Gostaria de comer carne vermelha?</label><br>
+    <label class ="lang" for="pergunta-17" key ="texto37">Gostaria de comer carne vermelha?</label><br>
     <input type="radio" id="sim-carne" name="carne-vermelha" value="sim" onclick="mostrarPergunta('pergunta-18')">
-    <label for="sim-carne">Sim</label><br>
+    <label class = "lang" for="sim-carne" key ="texto33">Sim</label><br>
     <input type="radio" id="nao-carne" name="carne-vermelha" value="nao" onclick="mostrarPergunta('pergunta-19')">
-    <label for="nao-carne">Não</label><br>
+    <label class = "lang" for="nao-carne" key ="texto34">Não</label><br>
   </div>
 
   <div class="form-group" id="pergunta-18" style="display: none;">
-    <p>Restaurantes em geral e churrascarias</p>
+    <p class = "lang " key ="texto38">Restaurantes em geral e churrascarias</p>
   </div>
 
   <div class="form-group" id="pergunta-19" style="display: none;">
-    <label for="pergunta-19">Gostaria de comer frutos do mar, como peixe?</label><br>
+    <label class = "lang" for="pergunta-19" key ="texto39">Gostaria de comer frutos do mar, como peixe?</label><br>
     <input type="radio" id="sim-peixe" name="peixe" value="sim" onclick="mostrarPergunta('pergunta-20')">
-    <label for="sim-peixe">Sim</label><br>
+    <label class ="lang" for="sim-peixe" key ="texto33">Sim</label><br>
     <input type="radio" id="nao-peixe" name="peixe" value="nao" onclick="mostrarPergunta('pergunta-21')">
-    <label for="nao-peixe">Não</label><br>
+    <label class ="lang"for="nao-peixe"key = "texto34">Não</label><br>
   </div>
 
   <div class="form-group" id="pergunta-20" style="display: none;">
-    <p>comida oriental e frutos do mar</p>
+    <p class ="lang" key = "texto40">comida oriental e frutos do mar</p>
   </div>
 
   <div class="form-group" id="pergunta-21" style="display: none;">
-    <label for="pergunta-21">Gostaria de uma alimentação sem carnes?</label><br>
+    <label class = "lang" for="pergunta-21" key ="texto41">Gostaria de uma alimentação sem carnes?</label><br>
     <input type="radio" id="sim-sem-carnes" name="sem-carnes" value="sim" onclick="mostrarPergunta('pergunta-22')">
-    <label for="sim-sem-carnes">Sim</label><br>
+    <label class = "lang" for="sim-sem-carnes" key ="texto33">Sim</label><br>
     <input type="radio" id="nao-sem-carnes" name="sem-carnes" value="nao" onclick="mostrarPergunta('pergunta-23')">
-    <label for="nao-sem-carnes">Não</label><br>
+    <label class ="lang" for="nao-sem-carnes" key = "texto34">Não</label><br>
   </div>
 
   <div class="form-group" id="pergunta-22" style="display: none;">
-    <p>Restaurantes Veganos e Vegetarianos</p>
+    <p class = "lang" key = "texto42">Restaurantes Veganos e Vegetarianos</p>
   </div>
 
   <div class="form-group" id="pergunta-23" style="display: none;">
-    <p>Resposta: faça novamente</p>
+    <p class ="lang" key ="texto43">Resposta: faça novamente</p>
   </div>
   
 </form>
 
-<script src="/js/paraVoce.js"></script>
+<script src="../js/paraVoce.js"></script>
 </body>
 </html>
 
