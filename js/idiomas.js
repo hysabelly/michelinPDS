@@ -93,6 +93,8 @@ var arrLang = {
            'texto43':"Answer: do it again",
            'texto44':"Click on the desired option to find your ideal restaurant today!",
            'texto45':"Hello Akemi Alice!",
+           'texto46':"Do you want a quick meal or a more elaborate one?",
+           'texto47':"Would you like some sweets?"
      
           
     },   
@@ -190,6 +192,8 @@ var arrLang = {
         'texto43':"Resposta: faça novamente",
         'texto44':"Clique na opção desejada para encontrar seu restaurante ideal hoje!",
         'texto45':"Olá, Akemi Alice!",
+        'texto46':"Você deseja uma refeição rápida ou mais elaborada?",
+        'texto47':"Gostaria de comer doces?"
        
         
     }   

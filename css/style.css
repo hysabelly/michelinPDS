@@ -338,14 +338,17 @@ button {
 
 /* pergunta 1*/
 
+
+.imagem-container {
+  opacity: 0.50;
+  border: 1px solid black;
+  margin-right: 25px;
+  width: 100%;
+}
+
 .opcoes-valor {
   display: flex;
   justify-content: space-between;
-
-}
-
-.imagem-container {
-  opacity: 0.60;
 }
 
 .opcoes-valor button {
@@ -364,7 +367,19 @@ button {
   text-align: center;
 }
 
-/* pergunta 2*/
+.opcoes-valor {
+  display: flex;
+  justify-content: space-between;
+  margin-right: -20px; /* Remove o espaçamento extra do último botão */
+}
+
+.opcoes-valor button:not(:last-child) {
+  margin-right: 20px; /* Adiciona o espaçamento entre os botões */
+}
+
+
+
+/* pergunta 2 */
 
 .opcoes-1 .legenda {
   position: absolute;
@@ -378,60 +393,17 @@ button {
   text-align: center;
 }
 
-.opcoes1-2 .legenda {
-  position: absolute;
-  bottom: 10px;
-  left: 100%;
-  top: 35%;
-  transform: translateX(-50%);
-  color: black;
-  padding: 5px 10px;
-  font-size: 35px;
-  text-align: center;
-}
-
-.opcoes-1 button{
+.opcoes-1 button {
   position: relative;
-} 
+}
 
 .opcoes-1 {
   display: flex;
   justify-content: space-between;
+  margin-right: -20px; /* Remove o espaçamento extra do último botão */
 }
 
-/* pergunta 3*/
-
-.categoria .legenda {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  top: 25%;
-  transform: translateX(-50%);
-  color: black;
-  padding: 5px 10px;
-  font-size: 35px;
-  text-align: center;
+.opcoes-1 button:not(:last-child) {
+  margin-right: 20px; /* Adiciona o espaçamento entre os botões */
 }
 
-.categoria-1 .legenda {
-  position: absolute;
-  bottom: 10px;
-  left: 100%;
-  top: 35%;
-  transform: translateX(-50%);
-  color: black;
-  padding: 5px 10px;
-  font-size: 35px;
-  text-align: center;
-}
-
-.categoria button{
-  position: relative;
-}
-
-.categoria {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* pergunta 4*/
